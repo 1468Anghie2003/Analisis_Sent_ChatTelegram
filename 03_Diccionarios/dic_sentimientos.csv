@@ -1,0 +1,670 @@
+﻿sentimiento,polaridad,termino,tipo,origen,n_pal
+admiracion,1,aprendes mucho,frase,Ampliación (dataset),2
+admiracion,1,buen docente,frase,Ampliación (dataset),2
+admiracion,1,buen lic,frase,Ampliación (dataset),2
+admiracion,1,buen licenciado,frase,Ampliación (dataset),2
+admiracion,1,buen profe,frase,Ampliación (dataset),2
+admiracion,1,buena docente,frase,Ampliación (dataset),2
+admiracion,1,buena lic,frase,Ampliación (dataset),2
+admiracion,1,buena licenciada,frase,Ampliación (dataset),2
+admiracion,1,buena profe,frase,Ampliación (dataset),2
+admiracion,1,claro al explicar,frase,Ampliación (dataset),3
+admiracion,1,el mejor,frase,Ampliación (dataset),2
+admiracion,1,ensena bien,frase,Ampliación (dataset),2
+admiracion,1,ensena muy bien,frase,Ampliación (dataset),3
+admiracion,1,excelente docente,frase,Ampliación (dataset),2
+admiracion,1,explica bien,frase,Ampliación (dataset),2
+admiracion,1,explica muy bien,frase,Ampliación (dataset),3
+admiracion,1,la mejor,frase,Ampliación (dataset),2
+admiracion,1,la recomiendo,frase,Ampliación (dataset),2
+admiracion,1,lo recomiendo,frase,Ampliación (dataset),2
+admiracion,1,los mejores,frase,Ampliación (dataset),2
+admiracion,1,muy buena,frase,Ampliación (dataset),2
+admiracion,1,muy bueno,frase,Ampliación (dataset),2
+admiracion,1,muy recomendable,frase,Ampliación (dataset),2
+admiracion,1,sabe mucho,frase,Ampliación (dataset),2
+admiracion,1,se aprende,frase,Ampliación (dataset),2
+admiracion,1,te amo,frase,Clase (reasignado de amor),2
+admiracion,1,te lo recomiendo,frase,Ampliación (dataset),3
+admiracion,1,te quiero,frase,Clase (reasignado de amor),2
+admiracion,1,un capo,frase,Ampliación (dataset),2
+admiracion,1,una capa,frase,Ampliación (dataset),2
+admiracion,1,abrazo,palabra,Clase (reasignado de amor),1
+admiracion,1,abrazos,palabra,Clase (reasignado de amor),1
+admiracion,1,accesible,palabra,Ampliación (dataset),1
+admiracion,1,admiracion,palabra,Clase,1
+admiracion,1,admiro,palabra,Clase,1
+admiracion,1,amo,palabra,Clase (reasignado de amor),1
+admiracion,1,amor,palabra,Clase (reasignado de amor),1
+admiracion,1,bonita,palabra,Clase (reasignado de amor),1
+admiracion,1,bonito,palabra,Clase (reasignado de amor),1
+admiracion,1,bravo,palabra,Clase,1
+admiracion,1,capo,palabra,Clase,1
+admiracion,1,carino,palabra,Clase (reasignado de amor),1
+admiracion,1,corazon,palabra,Clase (reasignado de amor),1
+admiracion,1,crack,palabra,Clase,1
+admiracion,1,domina,palabra,Ampliación (dataset),1
+admiracion,1,excelente,palabra,Clase,1
+admiracion,1,felicidades,palabra,Clase,1
+admiracion,1,felicitaciones,palabra,Clase,1
+admiracion,1,flexible,palabra,Ampliación (dataset),1
+admiracion,1,genio,palabra,Clase,1
+admiracion,1,hermosa,palabra,Clase (reasignado de amor),1
+admiracion,1,hermoso,palabra,Clase (reasignado de amor),1
+admiracion,1,increible,palabra,Clase,1
+admiracion,1,linda,palabra,Clase (reasignado de amor),1
+admiracion,1,lindo,palabra,Clase (reasignado de amor),1
+admiracion,1,maestra,palabra,Ampliación (dataset),1
+admiracion,1,maestro,palabra,Ampliación (dataset),1
+admiracion,1,organizada,palabra,Ampliación (dataset),1
+admiracion,1,organizado,palabra,Ampliación (dataset),1
+admiracion,1,paciente,palabra,Ampliación (dataset),1
+admiracion,1,recomendable,palabra,Clase,1
+admiracion,1,recomendada,palabra,Clase,1
+admiracion,1,recomendado,palabra,Clase,1
+admiracion,1,recomiendo,palabra,Clase,1
+admiracion,1,respeto,palabra,Clase,1
+admiracion,1,respetuoso,palabra,Ampliación (dataset),1
+admiracion,1,tolerante,palabra,Ampliación (dataset),1
+admiracion,1,top,palabra,Ampliación (dataset),1
+admiracion,1,admir,raiz,Clase,1
+admiracion,1,felicit,raiz,Clase,1
+alegria,1,buena noticia,frase,Ampliación (dataset),2
+alegria,1,buenas noticias,frase,Ampliación (dataset),2
+alegria,1,de lujo,frase,Ampliación (dataset),2
+alegria,1,excelente noticia,frase,Ampliación (dataset),2
+alegria,1,me alegro,frase,Ampliación (dataset),2
+alegria,1,me encanta,frase,Ampliación (dataset),2
+alegria,1,que alegria,frase,Ampliación (dataset),2
+alegria,1,que bien,frase,Ampliación (dataset),2
+alegria,1,que bueno,frase,Ampliación (dataset),2
+alegria,1,que lindo,frase,Ampliación (dataset),2
+alegria,1,alegre,palabra,Clase,1
+alegria,1,alegria,palabra,Clase,1
+alegria,1,bacan,palabra,Clase,1
+alegria,1,bacansisimo,palabra,Ampliación (dataset),1
+alegria,1,buenisima,palabra,Clase,1
+alegria,1,buenisimo,palabra,Clase,1
+alegria,1,celebrar,palabra,Clase,1
+alegria,1,chevere,palabra,Clase,1
+alegria,1,chido,palabra,Ampliación (dataset),1
+alegria,1,contenta,palabra,Clase,1
+alegria,1,contento,palabra,Clase,1
+alegria,1,divertida,palabra,Clase,1
+alegria,1,divertidisimo,palabra,Ampliación (dataset),1
+alegria,1,divertido,palabra,Clase,1
+alegria,1,encanta,palabra,Ampliación (dataset),1
+alegria,1,felices,palabra,Clase,1
+alegria,1,felicidad,palabra,Clase,1
+alegria,1,feliz,palabra,Clase,1
+alegria,1,festejar,palabra,Clase,1
+alegria,1,genial,palabra,Clase,1
+alegria,1,haha,palabra,Ampliación (dataset),1
+alegria,1,jaja,palabra,Clase,1
+alegria,1,jajaja,palabra,Ampliación (dataset),1
+alegria,1,jeje,palabra,Clase,1
+alegria,1,jsjs,palabra,Ampliación (dataset),1
+alegria,1,lol,palabra,Ampliación (dataset),1
+alegria,1,xd,palabra,Clase,1
+alegria,1,aleg,raiz,Clase,1
+alegria,1,jaja,raiz,Clase,1
+alegria,1,jeje,raiz,Clase,1
+cansancio,-1,me rindo,frase,Ampliación (dataset),2
+cansancio,-1,mucha tarea,frase,Ampliación (dataset),2
+cansancio,-1,muchas tareas,frase,Ampliación (dataset),2
+cansancio,-1,muy dificil,frase,Ampliación (dataset),2
+cansancio,-1,ya no doy,frase,Ampliación (dataset),3
+cansancio,-1,ya no puedo,frase,Ampliación (dataset),3
+cansancio,-1,aburre,palabra,Clase,1
+cansancio,-1,aburrida,palabra,Clase,1
+cansancio,-1,aburrido,palabra,Clase,1
+cansancio,-1,aburrimiento,palabra,Clase,1
+cansancio,-1,agotada,palabra,Clase,1
+cansancio,-1,agotado,palabra,Clase,1
+cansancio,-1,agotador,palabra,Clase,1
+cansancio,-1,cansada,palabra,Clase,1
+cansancio,-1,cansado,palabra,Clase,1
+cansancio,-1,cansancio,palabra,Clase,1
+cansancio,-1,complicada,palabra,Ampliación (dataset),1
+cansancio,-1,complicado,palabra,Ampliación (dataset),1
+cansancio,-1,demasiado,palabra,Ampliación (dataset),1
+cansancio,-1,desvelada,palabra,Ampliación (dataset),1
+cansancio,-1,desvelado,palabra,Ampliación (dataset),1
+cansancio,-1,dificil,palabra,Ampliación (dataset),1
+cansancio,-1,estres,palabra,Clase,1
+cansancio,-1,estresada,palabra,Clase,1
+cansancio,-1,estresado,palabra,Clase,1
+cansancio,-1,estresante,palabra,Clase,1
+cansancio,-1,exigente,palabra,Ampliación (dataset),1
+cansancio,-1,fatiga,palabra,Clase,1
+cansancio,-1,flojera,palabra,Clase,1
+cansancio,-1,matada,palabra,Ampliación (dataset),1
+cansancio,-1,matado,palabra,Ampliación (dataset),1
+cansancio,-1,pesada,palabra,Clase,1
+cansancio,-1,pesado,palabra,Clase,1
+cansancio,-1,quemado,palabra,Ampliación (dataset),1
+cansancio,-1,ruda,palabra,Ampliación (dataset),1
+cansancio,-1,rudo,palabra,Ampliación (dataset),1
+cansancio,-1,sueno,palabra,Ampliación (dataset),1
+cansancio,-1,tedioso,palabra,Clase,1
+cansancio,-1,aburr,raiz,Clase,1
+cansancio,-1,agota,raiz,Clase,1
+cansancio,-1,cansa,raiz,Clase,1
+cansancio,-1,estres,raiz,Clase,1
+confusion,-1,alguien me explica,frase,Ampliación (dataset),3
+confusion,-1,como asi,frase,Clase,2
+confusion,-1,como funciona,frase,Ampliación (dataset),2
+confusion,-1,estoy perdida,frase,Ampliación (dataset),2
+confusion,-1,estoy perdido,frase,Ampliación (dataset),2
+confusion,-1,me perdi,frase,Clase,2
+confusion,-1,ni idea,frase,Clase,2
+confusion,-1,no comprendo,frase,Ampliación (dataset),2
+confusion,-1,no entendi,frase,Clase,2
+confusion,-1,no entiendo,frase,Clase,2
+confusion,-1,no estoy segura,frase,Ampliación (dataset),3
+confusion,-1,no estoy seguro,frase,Ampliación (dataset),3
+confusion,-1,no me queda claro,frase,Ampliación (dataset),4
+confusion,-1,no queda claro,frase,Ampliación (dataset),3
+confusion,-1,no se como,frase,Ampliación (dataset),3
+confusion,-1,no se donde,frase,Ampliación (dataset),3
+confusion,-1,no se que,frase,Ampliación (dataset),3
+confusion,-1,no se si,frase,Ampliación (dataset),3
+confusion,-1,no tengo idea,frase,Ampliación (dataset),3
+confusion,-1,por que me sale,frase,Ampliación (dataset),4
+confusion,-1,porque me sale,frase,Ampliación (dataset),3
+confusion,-1,que paso,frase,Ampliación (dataset),2
+confusion,-1,que significa,frase,Ampliación (dataset),2
+confusion,-1,sera que,frase,Ampliación (dataset),2
+confusion,-1,confundida,palabra,Clase,1
+confusion,-1,confundido,palabra,Clase,1
+confusion,-1,confusa,palabra,Clase,1
+confusion,-1,confusion,palabra,Clase,1
+confusion,-1,confuso,palabra,Clase,1
+confusion,-1,duda,palabra,Clase,1
+confusion,-1,dudas,palabra,Clase,1
+confusion,-1,dudo,palabra,Clase,1
+confusion,-1,extrano,palabra,Ampliación (dataset),1
+confusion,-1,nose,palabra,Clase,1
+confusion,-1,perdida,palabra,Clase,1
+confusion,-1,perdido,palabra,Clase,1
+confusion,-1,confu,raiz,Clase,1
+curiosidad,0,alguien conoce,frase,Ampliación (dataset),2
+curiosidad,0,alguien paso,frase,Ampliación (dataset),2
+curiosidad,0,alguien que haya,frase,Ampliación (dataset),3
+curiosidad,0,alguien sabe,frase,Ampliación (dataset),2
+curiosidad,0,alguien sabes,frase,Ampliación (dataset),2
+curiosidad,0,alguien tiene,frase,Ampliación (dataset),2
+curiosidad,0,alguien tomo,frase,Ampliación (dataset),2
+curiosidad,0,como es el docente,frase,Ampliación (dataset),4
+curiosidad,0,como es el lic,frase,Ampliación (dataset),4
+curiosidad,0,como es la lic,frase,Ampliación (dataset),4
+curiosidad,0,como fue,frase,Ampliación (dataset),2
+curiosidad,0,cuentame mas,frase,Clase,2
+curiosidad,0,me gustaria saber,frase,Clase,3
+curiosidad,0,me interesa,frase,Clase,2
+curiosidad,0,me podrian decir,frase,Ampliación (dataset),3
+curiosidad,0,me pueden decir,frase,Ampliación (dataset),3
+curiosidad,0,que recomiendan,frase,Ampliación (dataset),2
+curiosidad,0,que se sabe,frase,Ampliación (dataset),3
+curiosidad,0,que tal el,frase,Ampliación (dataset),3
+curiosidad,0,que tal es,frase,Ampliación (dataset),3
+curiosidad,0,que tal la,frase,Ampliación (dataset),3
+curiosidad,0,quien recomiendan,frase,Ampliación (dataset),2
+curiosidad,0,quiero saber,frase,Clase,2
+curiosidad,0,quisiera saber,frase,Clase,2
+curiosidad,0,sabe alguien,frase,Ampliación (dataset),2
+curiosidad,0,saben si,frase,Ampliación (dataset),2
+curiosidad,0,sabes si,frase,Ampliación (dataset),2
+curiosidad,0,una consulta,frase,Ampliación (dataset),2
+curiosidad,0,una pregunta,frase,Ampliación (dataset),2
+curiosidad,0,consulta,palabra,Ampliación (dataset),1
+curiosidad,0,curiosa,palabra,Clase,1
+curiosidad,0,curiosidad,palabra,Clase,1
+curiosidad,0,curioso,palabra,Clase,1
+curiosidad,0,informacion,palabra,Ampliación (dataset),1
+curiosidad,0,interesante,palabra,Clase,1
+curiosidad,0,pregunta,palabra,Ampliación (dataset),1
+curiosidad,0,recomiendan,palabra,Ampliación (dataset),1
+curiosidad,0,curios,raiz,Clase,1
+decepcion,-1,al final no,frase,Ampliación (dataset),3
+decepcion,-1,crei que,frase,Ampliación (dataset),2
+decepcion,-1,de nada sirvio,frase,Ampliación (dataset),3
+decepcion,-1,esperaba mas,frase,Ampliación (dataset),2
+decepcion,-1,mala experiencia,frase,Ampliación (dataset),2
+decepcion,-1,me jalo,frase,Ampliación (dataset),2
+decepcion,-1,me tiro,frase,Ampliación (dataset),2
+decepcion,-1,mi culpa,frase,Clase (reasignado de vergüenza),2
+decepcion,-1,no abrieron,frase,Ampliación (dataset),2
+decepcion,-1,no cumplen,frase,Ampliación (dataset),2
+decepcion,-1,no cumplieron,frase,Ampliación (dataset),2
+decepcion,-1,no habilitaron,frase,Ampliación (dataset),2
+decepcion,-1,no se abrio,frase,Ampliación (dataset),3
+decepcion,-1,no sirve,frase,Clase,2
+decepcion,-1,no vale la pena,frase,Ampliación (dataset),4
+decepcion,-1,nos jalo,frase,Ampliación (dataset),2
+decepcion,-1,nos tiro,frase,Ampliación (dataset),2
+decepcion,-1,otra decepcion,frase,Ampliación (dataset),2
+decepcion,-1,para nada,frase,Clase,2
+decepcion,-1,pena ajena,frase,Clase (reasignado de vergüenza),2
+decepcion,-1,pense que,frase,Ampliación (dataset),2
+decepcion,-1,que decepcion,frase,Ampliación (dataset),2
+decepcion,-1,que oso,frase,Clase (reasignado de vergüenza),2
+decepcion,-1,se cancelo,frase,Ampliación (dataset),2
+decepcion,-1,aplazado,palabra,Clase,1
+decepcion,-1,aplazaron,palabra,Ampliación (dataset),1
+decepcion,-1,avergonzada,palabra,Clase (reasignado de vergüenza),1
+decepcion,-1,avergonzado,palabra,Clase (reasignado de vergüenza),1
+decepcion,-1,bochorno,palabra,Clase (reasignado de vergüenza),1
+decepcion,-1,cague,palabra,Clase (reasignado de vergüenza),1
+decepcion,-1,cancelaron,palabra,Ampliación (dataset),1
+decepcion,-1,decepcion,palabra,Clase,1
+decepcion,-1,decepcionada,palabra,Clase,1
+decepcion,-1,decepcionado,palabra,Clase,1
+decepcion,-1,decepciono,palabra,Clase,1
+decepcion,-1,desilusion,palabra,Clase,1
+decepcion,-1,desilusionado,palabra,Clase,1
+decepcion,-1,engano,palabra,Clase,1
+decepcion,-1,falsa,palabra,Clase,1
+decepcion,-1,falso,palabra,Clase,1
+decepcion,-1,fracase,palabra,Clase,1
+decepcion,-1,fracaso,palabra,Clase,1
+decepcion,-1,fraude,palabra,Clase,1
+decepcion,-1,gg,palabra,Ampliación (dataset),1
+decepcion,-1,humillacion,palabra,Clase (reasignado de vergüenza),1
+decepcion,-1,humillante,palabra,Clase (reasignado de vergüenza),1
+decepcion,-1,jalaron,palabra,Clase,1
+decepcion,-1,jale,palabra,Clase,1
+decepcion,-1,lamentablemente,palabra,Ampliación (dataset),1
+decepcion,-1,mentira,palabra,Clase,1
+decepcion,-1,mintieron,palabra,Clase,1
+decepcion,-1,papelon,palabra,Clase (reasignado de vergüenza),1
+decepcion,-1,penoso,palabra,Clase (reasignado de vergüenza),1
+decepcion,-1,prometieron,palabra,Ampliación (dataset),1
+decepcion,-1,reprobado,palabra,Clase,1
+decepcion,-1,reprobaron,palabra,Clase,1
+decepcion,-1,reprobe,palabra,Clase,1
+decepcion,-1,ridicula,palabra,Clase (reasignado de vergüenza),1
+decepcion,-1,ridiculo,palabra,Clase (reasignado de vergüenza),1
+decepcion,-1,tristemente,palabra,Ampliación (dataset),1
+decepcion,-1,decep,raiz,Clase,1
+decepcion,-1,desilus,raiz,Clase,1
+enojo,-1,el colmo,frase,Ampliación (dataset),2
+enojo,-1,es el colmo,frase,Ampliación (dataset),3
+enojo,-1,falta de respeto,frase,Ampliación (dataset),3
+enojo,-1,hasta la madre,frase,Ampliación (dataset),3
+enojo,-1,no respetan,frase,Ampliación (dataset),2
+enojo,-1,nos roban,frase,Ampliación (dataset),2
+enojo,-1,pesima atencion,frase,Ampliación (dataset),2
+enojo,-1,que les pasa,frase,Ampliación (dataset),3
+enojo,-1,que verguenza,frase,Clase (reasignado de vergüenza),2
+enojo,-1,una burla,frase,Ampliación (dataset),2
+enojo,-1,abuso,palabra,Clase,1
+enojo,-1,alv,palabra,Ampliación (dataset),1
+enojo,-1,asco,palabra,Clase,1
+enojo,-1,atropello,palabra,Ampliación (dataset),1
+enojo,-1,basura,palabra,Clase,1
+enojo,-1,bronca,palabra,Clase,1
+enojo,-1,carajo,palabra,Clase,1
+enojo,-1,chucha,palabra,Clase,1
+enojo,-1,deberian,palabra,Ampliación (dataset),1
+enojo,-1,descarado,palabra,Ampliación (dataset),1
+enojo,-1,enojada,palabra,Clase,1
+enojo,-1,enojado,palabra,Clase,1
+enojo,-1,enojo,palabra,Clase,1
+enojo,-1,envidia,palabra,Clase,1
+enojo,-1,estupido,palabra,Clase,1
+enojo,-1,exigir,palabra,Ampliación (dataset),1
+enojo,-1,exijamos,palabra,Ampliación (dataset),1
+enojo,-1,fastidio,palabra,Clase,1
+enojo,-1,furiosa,palabra,Clase,1
+enojo,-1,furioso,palabra,Clase,1
+enojo,-1,harta,palabra,Clase,1
+enojo,-1,harto,palabra,Clase,1
+enojo,-1,hartos,palabra,Ampliación (dataset),1
+enojo,-1,horrible,palabra,Clase,1
+enojo,-1,idiota,palabra,Clase,1
+enojo,-1,indignado,palabra,Ampliación (dataset),1
+enojo,-1,indignante,palabra,Ampliación (dataset),1
+enojo,-1,injusticia,palabra,Ampliación (dataset),1
+enojo,-1,injusto,palabra,Clase,1
+enojo,-1,inutil,palabra,Clase,1
+enojo,-1,inutiles,palabra,Ampliación (dataset),1
+enojo,-1,ira,palabra,Clase,1
+enojo,-1,irresponsable,palabra,Ampliación (dataset),1
+enojo,-1,irresponsables,palabra,Ampliación (dataset),1
+enojo,-1,joder,palabra,Clase,1
+enojo,-1,mal,palabra,Clase,1
+enojo,-1,mala,palabra,Clase,1
+enojo,-1,maldita,palabra,Clase,1
+enojo,-1,maldito,palabra,Clase,1
+enojo,-1,malo,palabra,Clase,1
+enojo,-1,mediocre,palabra,Ampliación (dataset),1
+enojo,-1,mediocres,palabra,Ampliación (dataset),1
+enojo,-1,mierda,palabra,Clase,1
+enojo,-1,molesta,palabra,Clase,1
+enojo,-1,molesto,palabra,Clase,1
+enojo,-1,odio,palabra,Clase,1
+enojo,-1,peor,palabra,Clase,1
+enojo,-1,pesima,palabra,Clase,1
+enojo,-1,pesimo,palabra,Clase,1
+enojo,-1,precarias,palabra,Ampliación (dataset),1
+enojo,-1,precario,palabra,Ampliación (dataset),1
+enojo,-1,pucha,palabra,Clase,1
+enojo,-1,puta,palabra,Clase,1
+enojo,-1,queja,palabra,Clase,1
+enojo,-1,quejas,palabra,Ampliación (dataset),1
+enojo,-1,rabia,palabra,Clase,1
+enojo,-1,reclamar,palabra,Ampliación (dataset),1
+enojo,-1,reclamo,palabra,Clase,1
+enojo,-1,robo,palabra,Ampliación (dataset),1
+enojo,-1,sinverguenza,palabra,Ampliación (dataset),1
+enojo,-1,verguenza,palabra,Clase (reasignado de vergüenza),1
+enojo,-1,enoj,raiz,Clase,1
+enojo,-1,injust,raiz,Clase,1
+enojo,-1,moles,raiz,Clase,1
+enojo,-1,pesim,raiz,Clase,1
+enojo,-1,reclam,raiz,Clase,1
+esperanza,1,a ver si,frase,Ampliación (dataset),3
+esperanza,1,con fe,frase,Ampliación (dataset),2
+esperanza,1,crucemos los dedos,frase,Ampliación (dataset),3
+esperanza,1,dios quiera,frase,Ampliación (dataset),2
+esperanza,1,esperamos que,frase,Ampliación (dataset),2
+esperanza,1,estamos cerca,frase,Ampliación (dataset),2
+esperanza,1,falta poco,frase,Ampliación (dataset),2
+esperanza,1,no pierdan la esperanza,frase,Ampliación (dataset),4
+esperanza,1,no te rindas,frase,Ampliación (dataset),3
+esperanza,1,ojala abran,frase,Ampliación (dataset),2
+esperanza,1,ojala habiliten,frase,Ampliación (dataset),2
+esperanza,1,ojala se habilite,frase,Ampliación (dataset),3
+esperanza,1,podemos lograrlo,frase,Clase,2
+esperanza,1,que se abra,frase,Ampliación (dataset),3
+esperanza,1,si dios quiere,frase,Ampliación (dataset),3
+esperanza,1,tu puedes,frase,Ampliación (dataset),2
+esperanza,1,vamos a poder,frase,Clase,3
+esperanza,1,vamos que se puede,frase,Ampliación (dataset),4
+esperanza,1,ya casi,frase,Ampliación (dataset),2
+esperanza,1,animate,palabra,Ampliación (dataset),1
+esperanza,1,animense,palabra,Ampliación (dataset),1
+esperanza,1,animo,palabra,Clase,1
+esperanza,1,animos,palabra,Clase,1
+esperanza,1,confiamos,palabra,Clase,1
+esperanza,1,confio,palabra,Clase,1
+esperanza,1,esperanza,palabra,Clase,1
+esperanza,1,esperanzado,palabra,Ampliación (dataset),1
+esperanza,1,esperemos,palabra,Clase,1
+esperanza,1,espero,palabra,Clase,1
+esperanza,1,exito,palabra,Clase,1
+esperanza,1,exitos,palabra,Clase,1
+esperanza,1,fuerza,palabra,Ampliación (dataset),1
+esperanza,1,lograremos,palabra,Clase,1
+esperanza,1,ojala,palabra,Clase,1
+esperanza,1,suerte,palabra,Clase,1
+esperanza,1,esperanz,raiz,Clase,1
+frustracion,-1,de nuevo lo mismo,frase,Ampliación (dataset),4
+frustracion,-1,en vano,frase,Ampliación (dataset),2
+frustracion,-1,hasta cuando vamos,frase,Ampliación (dataset),3
+frustracion,-1,hasta cuando van,frase,Ampliación (dataset),3
+frustracion,-1,mala suerte,frase,Ampliación (dataset),2
+frustracion,-1,me cerraron,frase,Ampliación (dataset),2
+frustracion,-1,nadie contesta,frase,Ampliación (dataset),2
+frustracion,-1,nadie responde,frase,Ampliación (dataset),2
+frustracion,-1,ni modo,frase,Ampliación (dataset),2
+frustracion,-1,no alcance,frase,Ampliación (dataset),2
+frustracion,-1,no alcanzo,frase,Ampliación (dataset),2
+frustracion,-1,no carga,frase,Ampliación (dataset),2
+frustracion,-1,no contestan,frase,Ampliación (dataset),2
+frustracion,-1,no funciona,frase,Ampliación (dataset),2
+frustracion,-1,no hay cupo,frase,Ampliación (dataset),3
+frustracion,-1,no hay cupos,frase,Ampliación (dataset),3
+frustracion,-1,no me aparece,frase,Ampliación (dataset),3
+frustracion,-1,no me aparecen,frase,Ampliación (dataset),3
+frustracion,-1,no me deja,frase,Ampliación (dataset),3
+frustracion,-1,no me sale,frase,Ampliación (dataset),3
+frustracion,-1,no me salen,frase,Ampliación (dataset),3
+frustracion,-1,no puedo entrar,frase,Ampliación (dataset),3
+frustracion,-1,no puedo ingresar,frase,Ampliación (dataset),3
+frustracion,-1,no puedo inscribirme,frase,Ampliación (dataset),3
+frustracion,-1,no puedo pagar,frase,Ampliación (dataset),3
+frustracion,-1,no responden,frase,Ampliación (dataset),2
+frustracion,-1,no se puede,frase,Ampliación (dataset),3
+frustracion,-1,otra vez,frase,Ampliación (dataset),2
+frustracion,-1,perdi el cupo,frase,Ampliación (dataset),3
+frustracion,-1,que mala suerte,frase,Ampliación (dataset),3
+frustracion,-1,se cae,frase,Ampliación (dataset),2
+frustracion,-1,se cayo,frase,Ampliación (dataset),2
+frustracion,-1,se cerraron,frase,Ampliación (dataset),2
+frustracion,-1,se cerro,frase,Ampliación (dataset),2
+frustracion,-1,siempre lo mismo,frase,Ampliación (dataset),3
+frustracion,-1,siempre pasa,frase,Ampliación (dataset),2
+frustracion,-1,sin cupo,frase,Ampliación (dataset),2
+frustracion,-1,sin cupos,frase,Ampliación (dataset),2
+frustracion,-1,tanto tiempo,frase,Ampliación (dataset),2
+frustracion,-1,toca esperar,frase,Ampliación (dataset),2
+frustracion,-1,ya fue,frase,Ampliación (dataset),2
+frustracion,-1,burocracia,palabra,Ampliación (dataset),1
+frustracion,-1,chale,palabra,Ampliación (dataset),1
+frustracion,-1,chales,palabra,Ampliación (dataset),1
+frustracion,-1,chuta,palabra,Ampliación (dataset),1
+frustracion,-1,colapsada,palabra,Ampliación (dataset),1
+frustracion,-1,colapsado,palabra,Ampliación (dataset),1
+frustracion,-1,colapso,palabra,Ampliación (dataset),1
+frustracion,-1,error,palabra,Ampliación (dataset),1
+frustracion,-1,frustracion,palabra,Clase,1
+frustracion,-1,frustrada,palabra,Clase,1
+frustracion,-1,frustrado,palabra,Clase,1
+frustracion,-1,frustrante,palabra,Clase,1
+frustracion,-1,nimodo,palabra,Ampliación (dataset),1
+frustracion,-1,tramitologia,palabra,Ampliación (dataset),1
+frustracion,-1,frustr,raiz,Clase,1
+gratitud,1,dios le pague,frase,Clase,3
+gratitud,1,dios les pague,frase,Ampliación (dataset),3
+gratitud,1,dios te pague,frase,Ampliación (dataset),3
+gratitud,1,gracias amiga,frase,Ampliación (dataset),2
+gratitud,1,gracias amigo,frase,Ampliación (dataset),2
+gratitud,1,gracias bro,frase,Ampliación (dataset),2
+gratitud,1,gracias companero,frase,Ampliación (dataset),2
+gratitud,1,gracias por,frase,Ampliación (dataset),2
+gratitud,1,le agradeceria,frase,Ampliación (dataset),2
+gratitud,1,les agradeceria,frase,Ampliación (dataset),2
+gratitud,1,mil gracias,frase,Clase,2
+gratitud,1,muchas gracias,frase,Clase,2
+gratitud,1,muchisimas gracias,frase,Ampliación (dataset),2
+gratitud,1,muy amable,frase,Ampliación (dataset),2
+gratitud,1,que amable,frase,Ampliación (dataset),2
+gratitud,1,se agradece,frase,Ampliación (dataset),2
+gratitud,1,se le agradece,frase,Ampliación (dataset),3
+gratitud,1,se les agradece,frase,Ampliación (dataset),3
+gratitud,1,te agradeceria,frase,Ampliación (dataset),2
+gratitud,1,te pasaste,frase,Ampliación (dataset),2
+gratitud,1,agradecida,palabra,Clase,1
+gratitud,1,agradecido,palabra,Clase,1
+gratitud,1,agradezco,palabra,Clase,1
+gratitud,1,bendiciones,palabra,Clase,1
+gratitud,1,gracia,palabra,Ampliación (dataset),1
+gratitud,1,gracias,palabra,Clase,1
+gratitud,1,graciass,palabra,Ampliación (dataset),1
+gratitud,1,grax,palabra,Clase,1
+gratitud,1,thanks,palabra,Ampliación (dataset),1
+gratitud,1,thx,palabra,Ampliación (dataset),1
+gratitud,1,agradec,raiz,Clase,1
+preocupacion,-1,alguien me ayude,frase,Ampliación (dataset),3
+preocupacion,-1,alguien me puede ayudar,frase,Ampliación (dataset),4
+preocupacion,-1,ayuda por favor,frase,Ampliación (dataset),3
+preocupacion,-1,ayuda porfa,frase,Ampliación (dataset),2
+preocupacion,-1,da miedo,frase,Ampliación (dataset),2
+preocupacion,-1,hoy es el ultimo,frase,Ampliación (dataset),4
+preocupacion,-1,me asuste,frase,Ampliación (dataset),2
+preocupacion,-1,me da miedo,frase,Ampliación (dataset),3
+preocupacion,-1,me preocupa,frase,Ampliación (dataset),2
+preocupacion,-1,no se que hacer,frase,Ampliación (dataset),4
+preocupacion,-1,perder el deposito,frase,Ampliación (dataset),3
+preocupacion,-1,perder la materia,frase,Ampliación (dataset),3
+preocupacion,-1,que hago,frase,Ampliación (dataset),2
+preocupacion,-1,se acaba el plazo,frase,Ampliación (dataset),4
+preocupacion,-1,se pierde,frase,Ampliación (dataset),2
+preocupacion,-1,se va a cerrar,frase,Ampliación (dataset),4
+preocupacion,-1,tengo miedo,frase,Ampliación (dataset),2
+preocupacion,-1,ultimo dia,frase,Ampliación (dataset),2
+preocupacion,-1,van a cerrar,frase,Ampliación (dataset),3
+preocupacion,-1,alerta,palabra,Ampliación (dataset),1
+preocupacion,-1,angustia,palabra,Clase,1
+preocupacion,-1,ansiedad,palabra,Clase,1
+preocupacion,-1,ansiosa,palabra,Clase,1
+preocupacion,-1,ansioso,palabra,Clase,1
+preocupacion,-1,apurate,palabra,Clase,1
+preocupacion,-1,apurense,palabra,Clase,1
+preocupacion,-1,auxilio,palabra,Ampliación (dataset),1
+preocupacion,-1,ayuda,palabra,Ampliación (dataset),1
+preocupacion,-1,cuidado,palabra,Ampliación (dataset),1
+preocupacion,-1,inquieto,palabra,Clase,1
+preocupacion,-1,miedo,palabra,Clase,1
+preocupacion,-1,nervios,palabra,Clase,1
+preocupacion,-1,nerviosa,palabra,Clase,1
+preocupacion,-1,nervioso,palabra,Clase,1
+preocupacion,-1,ojo,palabra,Ampliación (dataset),1
+preocupacion,-1,panico,palabra,Ampliación (dataset),1
+preocupacion,-1,peligro,palabra,Clase,1
+preocupacion,-1,plazo,palabra,Ampliación (dataset),1
+preocupacion,-1,preocupacion,palabra,Clase,1
+preocupacion,-1,preocupada,palabra,Clase,1
+preocupacion,-1,preocupado,palabra,Clase,1
+preocupacion,-1,rapido,palabra,Ampliación (dataset),1
+preocupacion,-1,riesgo,palabra,Clase,1
+preocupacion,-1,temo,palabra,Clase,1
+preocupacion,-1,urgente,palabra,Clase,1
+preocupacion,-1,angust,raiz,Clase,1
+preocupacion,-1,nervi,raiz,Clase,1
+preocupacion,-1,preocup,raiz,Clase,1
+satisfaccion,1,al fin,frase,Ampliación (dataset),2
+satisfaccion,1,aprobe con,frase,Ampliación (dataset),2
+satisfaccion,1,bien hecho,frase,Ampliación (dataset),2
+satisfaccion,1,contento con,frase,Ampliación (dataset),2
+satisfaccion,1,lo consegui,frase,Ampliación (dataset),2
+satisfaccion,1,lo logre,frase,Ampliación (dataset),2
+satisfaccion,1,me fue bien,frase,Ampliación (dataset),3
+satisfaccion,1,me funciono,frase,Ampliación (dataset),2
+satisfaccion,1,pase con,frase,Ampliación (dataset),2
+satisfaccion,1,pase la materia,frase,Ampliación (dataset),3
+satisfaccion,1,por fin,frase,Ampliación (dataset),2
+satisfaccion,1,se abrio,frase,Ampliación (dataset),2
+satisfaccion,1,se habilito,frase,Ampliación (dataset),2
+satisfaccion,1,se soluciono,frase,Ampliación (dataset),2
+satisfaccion,1,vale la pena,frase,Ampliación (dataset),3
+satisfaccion,1,valio la pena,frase,Ampliación (dataset),3
+satisfaccion,1,ya esta habilitado,frase,Ampliación (dataset),3
+satisfaccion,1,ya me inscribi,frase,Ampliación (dataset),3
+satisfaccion,1,ya me pude inscribir,frase,Ampliación (dataset),4
+satisfaccion,1,ya pude,frase,Ampliación (dataset),2
+satisfaccion,1,ya se arreglo,frase,Ampliación (dataset),3
+satisfaccion,1,abrieron,palabra,Ampliación (dataset),1
+satisfaccion,1,aprobe,palabra,Ampliación (dataset),1
+satisfaccion,1,conforme,palabra,Clase,1
+satisfaccion,1,funciono,palabra,Ampliación (dataset),1
+satisfaccion,1,habilitaron,palabra,Ampliación (dataset),1
+satisfaccion,1,listo,palabra,Ampliación (dataset),1
+satisfaccion,1,logrado,palabra,Clase,1
+satisfaccion,1,logre,palabra,Ampliación (dataset),1
+satisfaccion,1,perfecto,palabra,Ampliación (dataset),1
+satisfaccion,1,resuelto,palabra,Ampliación (dataset),1
+satisfaccion,1,satisfaccion,palabra,Clase,1
+satisfaccion,1,satisfecha,palabra,Clase,1
+satisfaccion,1,satisfecho,palabra,Clase,1
+satisfaccion,1,solucionado,palabra,Ampliación (dataset),1
+satisfaccion,1,satisf,raiz,Clase,1
+sorpresa,0,de la nada,frase,Ampliación (dataset),3
+sorpresa,0,de repente,frase,Clase,2
+sorpresa,0,de verdad,frase,Ampliación (dataset),2
+sorpresa,0,dios mio,frase,Clase,2
+sorpresa,0,en serio,frase,Ampliación (dataset),2
+sorpresa,0,no lo puedo creer,frase,Clase,4
+sorpresa,0,no manches,frase,Ampliación (dataset),2
+sorpresa,0,no puede ser,frase,Clase,3
+sorpresa,0,no sabia,frase,Ampliación (dataset),2
+sorpresa,0,que sorpresa,frase,Ampliación (dataset),2
+sorpresa,0,recien me entero,frase,Ampliación (dataset),3
+sorpresa,0,asu,palabra,Ampliación (dataset),1
+sorpresa,0,enserio,palabra,Ampliación (dataset),1
+sorpresa,0,guau,palabra,Clase,1
+sorpresa,0,imposible,palabra,Clase,1
+sorpresa,0,impresionante,palabra,Ampliación (dataset),1
+sorpresa,0,inesperado,palabra,Clase,1
+sorpresa,0,insolito,palabra,Clase,1
+sorpresa,0,nmms,palabra,Ampliación (dataset),1
+sorpresa,0,rara,palabra,Clase,1
+sorpresa,0,raro,palabra,Clase,1
+sorpresa,0,sorprendida,palabra,Clase,1
+sorpresa,0,sorprendido,palabra,Clase,1
+sorpresa,0,sorpresa,palabra,Clase,1
+sorpresa,0,uf,palabra,Clase,1
+sorpresa,0,uy,palabra,Ampliación (dataset),1
+sorpresa,0,wow,palabra,Clase,1
+sorpresa,0,inesper,raiz,Clase,1
+sorpresa,0,sorpren,raiz,Clase,1
+tranquilidad,1,con calma,frase,Ampliación (dataset),2
+tranquilidad,1,esta bien,frase,Ampliación (dataset),2
+tranquilidad,1,menos mal,frase,Clase,2
+tranquilidad,1,no hay apuro,frase,Ampliación (dataset),3
+tranquilidad,1,no hay problema,frase,Clase,3
+tranquilidad,1,no pasa nada,frase,Ampliación (dataset),3
+tranquilidad,1,no se preocupen,frase,Ampliación (dataset),3
+tranquilidad,1,no te preocupes,frase,Ampliación (dataset),3
+tranquilidad,1,sin presion,frase,Ampliación (dataset),2
+tranquilidad,1,sin problema,frase,Clase,2
+tranquilidad,1,sin problemas,frase,Ampliación (dataset),2
+tranquilidad,1,todavia hay tiempo,frase,Ampliación (dataset),3
+tranquilidad,1,todo bien,frase,Ampliación (dataset),2
+tranquilidad,1,aliviado,palabra,Clase,1
+tranquilidad,1,alivio,palabra,Clase,1
+tranquilidad,1,calma,palabra,Clase,1
+tranquilidad,1,calmado,palabra,Clase,1
+tranquilidad,1,confirmada,palabra,Ampliación (dataset),1
+tranquilidad,1,confirmado,palabra,Ampliación (dataset),1
+tranquilidad,1,dale,palabra,Ampliación (dataset),1
+tranquilidad,1,descuida,palabra,Clase,1
+tranquilidad,1,entendido,palabra,Ampliación (dataset),1
+tranquilidad,1,facil,palabra,Ampliación (dataset),1
+tranquilidad,1,facilito,palabra,Ampliación (dataset),1
+tranquilidad,1,fresco,palabra,Ampliación (dataset),1
+tranquilidad,1,ok,palabra,Ampliación (dataset),1
+tranquilidad,1,paz,palabra,Clase,1
+tranquilidad,1,relajado,palabra,Clase,1
+tranquilidad,1,relax,palabra,Ampliación (dataset),1
+tranquilidad,1,tranqui,palabra,Clase,1
+tranquilidad,1,tranquila,palabra,Clase,1
+tranquilidad,1,tranquilidad,palabra,Clase,1
+tranquilidad,1,tranquilo,palabra,Clase,1
+tranquilidad,1,vale,palabra,Ampliación (dataset),1
+tranquilidad,1,relaj,raiz,Clase,1
+tranquilidad,1,relax,raiz,Clase,1
+tranquilidad,1,tranqui,raiz,Clase,1
+tristeza,-1,me duele,frase,Ampliación (dataset),2
+tristeza,-1,me fue mal,frase,Ampliación (dataset),3
+tristeza,-1,me hace llorar,frase,Ampliación (dataset),3
+tristeza,-1,no aprobe,frase,Ampliación (dataset),2
+tristeza,-1,perdi la materia,frase,Ampliación (dataset),3
+tristeza,-1,que pena,frase,Clase,2
+tristeza,-1,que triste,frase,Ampliación (dataset),2
+tristeza,-1,se me fue,frase,Ampliación (dataset),3
+tristeza,-1,triste realidad,frase,Ampliación (dataset),2
+tristeza,-1,deprimida,palabra,Clase,1
+tristeza,-1,deprimido,palabra,Clase,1
+tristeza,-1,desanimado,palabra,Clase,1
+tristeza,-1,descontento,palabra,Clase,1
+tristeza,-1,duele,palabra,Clase,1
+tristeza,-1,lamentable,palabra,Clase,1
+tristeza,-1,lamento,palabra,Clase,1
+tristeza,-1,lastima,palabra,Clase,1
+tristeza,-1,lloramos,palabra,Ampliación (dataset),1
+tristeza,-1,llorar,palabra,Clase,1
+tristeza,-1,lloro,palabra,Clase,1
+tristeza,-1,penita,palabra,Clase,1
+tristeza,-1,rip,palabra,Ampliación (dataset),1
+tristeza,-1,sad,palabra,Ampliación (dataset),1
+tristeza,-1,sufrir,palabra,Clase,1
+tristeza,-1,sufro,palabra,Clase,1
+tristeza,-1,triste,palabra,Clase,1
+tristeza,-1,tristeza,palabra,Clase,1
+tristeza,-1,deprim,raiz,Clase,1
+tristeza,-1,lament,raiz,Clase,1
+tristeza,-1,llor,raiz,Clase,1
+tristeza,-1,trist,raiz,Clase,1

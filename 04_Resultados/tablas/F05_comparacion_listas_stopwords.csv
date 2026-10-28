@@ -1,0 +1,5 @@
+﻿lista,palabras,tokens_quitados,con_sentimiento
+Snowball (NLTK),301,0.473312737642586,"no, muy, sin, mucho, nada, poco"
+stopwords-iso,666,0.589121910646388,"bien, buena, bueno, claro, mal, mejor, mucho, muy, nada, nadie, no, nunca, peor, poco, siempre, sin, tampoco, verdad"
+Personalizada del chat,120,0.202655655893536,bien
+Lista final (Snowball + personalizada),398,0.574863355513308,"no, muy, sin, mucho, nada, poco, bien"

@@ -1,0 +1,145 @@
+tipo,entidad,patron,requiere_titulo
+docente,Tarquino,\b(?:tarquino)\b,0
+docente,Téllez (Marisol),\b(?:tellez|marisol tellez)\b,0
+docente,Marisol,"(?:lic|lice|licen|licenciad[oa]|ing|inge|ingenier[oa]|doc|docente|dr|dra|doctor[a]?|msc|m\.?sc|ph\.?d|prof|profe|profesor[a]?)\.?\s+(?:[a-z]+\s+){0,2}(?:marisol)\b",1
+docente,Aruquipa,\b(?:aruquipa)\b,0
+docente,Huanca (César),\b(?:huanca|cesar huanca)\b,0
+docente,Grover,\b(?:grover)\b,0
+docente,Zeballos (José Luis),\b(?:zeballos|jose luis zeballos)\b,0
+docente,Zenón,\b(?:zenon)\b,0
+docente,Menfy (Morales),\b(?:menfy)\b,0
+docente,Mullisaca,\b(?:mullisaca)\b,0
+docente,Silva (Moisés),\b(?:silva|moises silva|moises)\b,0
+docente,Luisa (Velásquez),\b(?:luisa|velasquez)\b,0
+docente,Alcón (Rubén),\b(?:alcon|ruben alcon|ruben)\b,0
+docente,Brígida,\b(?:brigida)\b,0
+docente,Hurtado (Victoria),\b(?:hurtado|victoria hurtado)\b,0
+docente,Nilda,\b(?:nilda)\b,0
+docente,Chapi,\b(?:chapi)\b,0
+docente,Reyes,"(?:lic|lice|licen|licenciad[oa]|ing|inge|ingenier[oa]|doc|docente|dr|dra|doctor[a]?|msc|m\.?sc|ph\.?d|prof|profe|profesor[a]?)\.?\s+(?:[a-z]+\s+){0,2}(?:reyes)\b",1
+docente,Burgoa,\b(?:burgoa)\b,0
+docente,Gallardo,\b(?:gallardo)\b,0
+docente,Chirino,\b(?:chirinos?)\b,0
+docente,Rogelio,\b(?:rogelio)\b,0
+docente,Tapia (José María),\b(?:tapia|jose maria tapia)\b,0
+docente,Benito,\b(?:benito)\b,0
+docente,Terán,\b(?:teran)\b,0
+docente,Castaños,\b(?:castanos)\b,0
+docente,Rudy,\b(?:rudy)\b,0
+docente,Felipez,\b(?:felipez)\b,0
+docente,Patricio,\b(?:patricio)\b,0
+docente,Miriam,\b(?:miriam)\b,0
+docente,Elvis,\b(?:elvis)\b,0
+docente,Madelina,\b(?:madelina)\b,0
+docente,Germán,"(?:lic|lice|licen|licenciad[oa]|ing|inge|ingenier[oa]|doc|docente|dr|dra|doctor[a]?|msc|m\.?sc|ph\.?d|prof|profe|profesor[a]?)\.?\s+(?:[a-z]+\s+){0,2}(?:german)\b",1
+docente,Ramiro (Choque),\b(?:ramiro|ramiro choque)\b,0
+docente,Cosme,\b(?:cosme)\b,0
+docente,Eugenio,\b(?:eugenio)\b,0
+docente,Yohoni,\b(?:yohoni)\b,0
+docente,Cotana,\b(?:cotana)\b,0
+docente,Eufren,\b(?:eufren)\b,0
+docente,Patzi,\b(?:patzi)\b,0
+docente,Pozo,"(?:lic|lice|licen|licenciad[oa]|ing|inge|ingenier[oa]|doc|docente|dr|dra|doctor[a]?|msc|m\.?sc|ph\.?d|prof|profe|profesor[a]?)\.?\s+(?:[a-z]+\s+){0,2}(?:pozo)\b",1
+docente,Paola,\b(?:paola)\b,0
+docente,Willy (Apaza),\b(?:willy|apaza)\b,0
+docente,Hermenegildo,\b(?:hermenegildo)\b,0
+docente,Miranda,"(?:lic|lice|licen|licenciad[oa]|ing|inge|ingenier[oa]|doc|docente|dr|dra|doctor[a]?|msc|m\.?sc|ph\.?d|prof|profe|profesor[a]?)\.?\s+(?:[a-z]+\s+){0,2}(?:miranda)\b",1
+docente,Fabiola,\b(?:fabiola)\b,0
+docente,Clavijo,\b(?:clavijo)\b,0
+docente,Chávez,\b(?:chavez)\b,0
+docente,Beltrán,"(?:lic|lice|licen|licenciad[oa]|ing|inge|ingenier[oa]|doc|docente|dr|dra|doctor[a]?|msc|m\.?sc|ph\.?d|prof|profe|profesor[a]?)\.?\s+(?:[a-z]+\s+){0,2}(?:beltran)\b",1
+docente,Toledo,"(?:lic|lice|licen|licenciad[oa]|ing|inge|ingenier[oa]|doc|docente|dr|dra|doctor[a]?|msc|m\.?sc|ph\.?d|prof|profe|profesor[a]?)\.?\s+(?:[a-z]+\s+){0,2}(?:toledo)\b",1
+docente,Contreras,\b(?:contreras)\b,0
+docente,Olivarez,\b(?:olivarez)\b,0
+docente,Valero,\b(?:valero)\b,0
+docente,Huaranca,\b(?:huaranca)\b,0
+docente,Corini,\b(?:corini)\b,0
+docente,Blacutt,\b(?:blacc?utt?|blaccut)\b,0
+docente,Llanque,\b(?:llanque)\b,0
+docente,Helder,\b(?:helder)\b,0
+docente,Flores,"(?:lic|lice|licen|licenciad[oa]|ing|inge|ingenier[oa]|doc|docente|dr|dra|doctor[a]?|msc|m\.?sc|ph\.?d|prof|profe|profesor[a]?)\.?\s+(?:[a-z]+\s+){0,2}(?:flores)\b",1
+docente,Carmen,"(?:lic|lice|licen|licenciad[oa]|ing|inge|ingenier[oa]|doc|docente|dr|dra|doctor[a]?|msc|m\.?sc|ph\.?d|prof|profe|profesor[a]?)\.?\s+(?:[a-z]+\s+){0,2}(?:carmen)\b",1
+docente,Torrico,"(?:lic|lice|licen|licenciad[oa]|ing|inge|ingenier[oa]|doc|docente|dr|dra|doctor[a]?|msc|m\.?sc|ph\.?d|prof|profe|profesor[a]?)\.?\s+(?:[a-z]+\s+){0,2}(?:torrico)\b",1
+docente,Silverio,\b(?:silverio)\b,0
+docente,Vargas,"(?:lic|lice|licen|licenciad[oa]|ing|inge|ingenier[oa]|doc|docente|dr|dra|doctor[a]?|msc|m\.?sc|ph\.?d|prof|profe|profesor[a]?)\.?\s+(?:[a-z]+\s+){0,2}(?:vargas)\b",1
+docente,Mendoza (Salomón),\b(?:salomon|mendoza condori)\b,0
+docente,Colque (Elba),\b(?:colque|elba jhannet)\b,0
+docente,Laura (Fernando),\b(?:fernando gustavo laura|laura nina)\b,0
+docente,Dolz,\b(?:dolz)\b,0
+docente,Aguilar,"(?:lic|lice|licen|licenciad[oa]|ing|inge|ingenier[oa]|doc|docente|dr|dra|doctor[a]?|msc|m\.?sc|ph\.?d|prof|profe|profesor[a]?)\.?\s+(?:[a-z]+\s+){0,2}(?:aguilar)\b",1
+materia,Programación,\b(?:programacion|progra)\b,0
+materia,Cálculo,\b(?:calculo)\b,0
+materia,Álgebra,\b(?:algebra)\b,0
+materia,Estadística,\b(?:estadistica)\b,0
+materia,Física,\b(?:fisica)\b,0
+materia,Base de datos,\b(?:base de datos|bases de datos|bd)\b,0
+materia,Redes,\b(?:redes)\b,0
+materia,Sistemas operativos,\b(?:sistemas operativos)\b,0
+materia,Investigación operativa,\b(?:investigacion operativa|io)\b,0
+materia,Análisis y diseño de sistemas,\b(?:analisis y diseno)\b,0
+materia,Ingeniería de software,\b(?:ingenieria de software)\b,0
+materia,Electrónica,\b(?:electronica)\b,0
+materia,Inteligencia artificial,\b(?:inteligencia artificial|\bia\b)\b,0
+materia,Métodos numéricos,\b(?:metodos numericos)\b,0
+materia,Lenguajes formales y autómatas,\b(?:lenguajes formales|automatas)\b,0
+materia,Criptografía,\b(?:criptografia)\b,0
+materia,Robótica,\b(?:robotica)\b,0
+materia,Legislación,\b(?:legislacion)\b,0
+materia,Simulación,\b(?:simulacion)\b,0
+materia,Telemática,\b(?:telematica)\b,0
+materia,Dispositivos móviles,\b(?:dispositivos moviles|moviles)\b,0
+materia,Taller de proyecto,\b(?:taller de proyecto|taller de grado|taller tecnico)\b,0
+materia,Programación web,\b(?:web)\b,0
+materia,Seguridad de sistemas,\b(?:seguridad)\b,0
+materia,Ecuaciones diferenciales,\b(?:ecuaciones)\b,0
+materia,Estructura de datos,\b(?:estructura de datos|estructuras de datos)\b,0
+materia,Matemática discreta,\b(?:discreta)\b,0
+materia,Contabilidad,\b(?:contabilidad)\b,0
+materia,Graficación,\b(?:graficacion)\b,0
+materia,Compiladores,\b(?:compiladores)\b,0
+materia,Teoría de sistemas,\b(?:teoria de sistemas)\b,0
+materia,Ciencia de datos,\b(?:ciencia de datos|mineria de datos)\b,0
+lugar,Kardex,\b(?:kardex)\b,0
+lugar,Piso / planta,\b(?:piso \d|piso [a-z]+|planta baja|\bpb\b)\b,0
+lugar,Aulas,\b(?:aula|aulas|\bpb-?a\d)\b,0
+lugar,Laboratorio,\b(?:laboratorio|laboratorios|\blab \d)\b,0
+lugar,Auditorio,\b(?:auditorio)\b,0
+lugar,Biblioteca,\b(?:biblioteca)\b,0
+lugar,Banco,\b(?:banco|union|bancounion)\b,0
+lugar,Oficina de temporada,\b(?:oficina)\b,0
+lugar,Dirección de carrera,\b(?:direccion|director)\b,0
+lugar,Decanato / FCPN,\b(?:decanato|fcpn|facultad)\b,0
+lugar,Rectorado,\b(?:rectorado)\b,0
+lugar,Monoblock,\b(?:monoblock)\b,0
+lugar,Edificio de informática,\b(?:edificio)\b,0
+lugar,Cota Cota,\b(?:cota cota)\b,0
+lugar,Coordinación,\b(?:coordinacion)\b,0
+lugar,Centro de estudiantes,\b(?:centro de estudiantes|centro de estudiante)\b,0
+lugar,Cafetería / comedor,\b(?:cafeteria|comedor)\b,0
+plataforma,WhatsApp,\b(?:whatsapp|wpp|wsp|whats)\b,0
+plataforma,Telegram,\b(?:telegram)\b,0
+plataforma,Classroom,\b(?:classroom|clasroom)\b,0
+plataforma,Google Meet,\b(?:meet)\b,0
+plataforma,Zoom,\b(?:zoom)\b,0
+plataforma,Moodle,\b(?:moodle)\b,0
+plataforma,Discord,\b(?:discord)\b,0
+plataforma,Facebook,\b(?:facebook|\bfb\b)\b,0
+plataforma,TikTok,\b(?:tiktok)\b,0
+plataforma,YouTube,\b(?:youtube)\b,0
+plataforma,Formulario Google,\b(?:formulario|forms)\b,0
+plataforma,Código QR,\b(?:\bqr\b)\b,0
+plataforma,Correo institucional,\b(?:correo|gmail|@umsa)\b,0
+tramite,CPT / código de pago,\b(?:cpt),0
+tramite,Depósito / pago,\b(?:deposito|depositar|pago|pagar|pague|pagos|boleta),0
+tramite,Matrícula,\b(?:matricula),0
+tramite,Inscripción,\b(?:inscripcion|inscribirme|inscribirse|inscribir|inscrito|inscritos|inscripciones|inscribi),0
+tramite,Adición y retiro,\b(?:adicion|retiro),0
+tramite,Carta / solicitud,\b(?:carta|cartas|solicitud),0
+tramite,Convalidación,\b(?:convalid),0
+tramite,Sorteo de inscripción,\b(?:sorteo),0
+tramite,Devolución de dinero,\b(?:devolucion|devuelvan|devolver|devuelven),0
+tramite,Habilitación de materia,\b(?:habilit),0
+tramite,Cupos,\b(?:cupo|cupos),0
+tramite,Choque de horario,\b(?:choque),0
+tramite,Notas / exámenes,\b(?:nota|notas|examen|examenes|parcial|final),0
+tramite,Sistema SSA,\b(?:ssa|sistema),0

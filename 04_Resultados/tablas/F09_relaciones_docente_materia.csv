@@ -1,0 +1,338 @@
+﻿docente,materia,N
+Silva (Moisés),Álgebra,32
+Zeballos (José Luis),Base de datos,31
+Alcón (Rubén),Sistemas operativos,22
+Huanca (César),Programación,20
+Chirino,Estadística,19
+Tarquino,Base de datos,17
+Gallardo,Redes,16
+Aruquipa,Programación,15
+Benito,Estadística,15
+Burgoa,Electrónica,14
+Castaños,Cálculo,14
+Mullisaca,Seguridad de sistemas,13
+Zenón,Cálculo,13
+Castaños,Álgebra,13
+Grover,Base de datos,13
+Terán,Redes,13
+Tarquino,Programación,12
+Menfy (Morales),Base de datos,12
+Blacutt,Redes,11
+Cosme,Estadística,11
+Téllez (Marisol),Programación,11
+Elvis,Álgebra,11
+Zenón,Álgebra,10
+Chapi,Estadística,10
+Rudy,Cálculo,9
+Huaranca,Cálculo,9
+Aruquipa,Programación web,9
+Valero,Álgebra,9
+Mullisaca,Métodos numéricos,8
+Tapia (José María),Base de datos,8
+Luisa (Velásquez),Sistemas operativos,7
+Hurtado (Victoria),Programación,7
+Eugenio,Cálculo,7
+Nilda,Investigación operativa,6
+Téllez (Marisol),Programación web,6
+Rogelio,Programación web,6
+Aruquipa,INF-121,6
+Felipez,Programación,6
+Llanque,Legislación,6
+Carmen,Programación,6
+Silva (Moisés),Programación web,5
+Helder,Cálculo,5
+Flores,INF-320,5
+Vargas,Redes,5
+Burgoa,Física,5
+Miriam,Cálculo,5
+Cotana,Análisis y diseño de sistemas,5
+Brígida,Métodos numéricos,5
+Llanque,Programación,5
+Huanca (César),Electrónica,5
+Contreras,Ingeniería de software,5
+Téllez (Marisol),INF-111,5
+Patzi,Cálculo,5
+Terán,Programación,4
+Marisol,Estadística,4
+Miranda,Programación,4
+Corini,Programación web,4
+Toledo,Inteligencia artificial,4
+Eugenio,Álgebra,4
+Mullisaca,SIS-255,4
+Fabiola,Cálculo,4
+Silva (Moisés),INF-114,4
+Silverio,Física,4
+Pozo,Programación web,4
+Zeballos (José Luis),Programación,4
+Chapi,Investigación operativa,4
+Eufren,Legislación,4
+Valero,Cálculo,4
+Huanca (César),Redes,4
+Silva (Moisés),Programación,3
+Burgoa,INF-123,3
+Miranda,Programación web,3
+Corini,Programación,3
+Madelina,Programación web,3
+Miriam,Álgebra,3
+Paola,Cálculo,3
+Rudy,Álgebra,3
+Gallardo,Telemática,3
+Aruquipa,INF-131,3
+Ramiro (Choque),Cálculo,3
+Silva (Moisés),Cálculo,3
+Huanca (César),INF-116,3
+Pozo,Programación,3
+Patricio,Redes,3
+Tapia (José María),INF-111,3
+Zenón,Programación,3
+Flores,Investigación operativa,3
+Torrico,Programación,3
+Miranda,Estadística,3
+Helder,Álgebra,3
+Hurtado (Victoria),INF-131,3
+Alcón (Rubén),INF-135,3
+Aruquipa,Dispositivos móviles,3
+Huaranca,Álgebra,3
+Felipez,Programación web,3
+Chávez,Investigación operativa,3
+Rogelio,Electrónica,3
+Willy (Apaza),Cálculo,3
+Patricio,Programación,3
+Huanca (César),Seguridad de sistemas,3
+Germán,Redes,3
+Téllez (Marisol),INF-122,3
+Willy (Apaza),Electrónica,2
+Clavijo,INF-360,2
+Contreras,INF-144,2
+Luisa (Velásquez),INF-135,2
+Marisol,Programación,2
+Madelina,INF-133,2
+Zenón,INF-114,2
+Huanca (César),INF-121,2
+Carmen,INF-121,2
+Marisol,Álgebra,2
+Huanca (César),Estadística,2
+Zeballos (José Luis),Redes,2
+Gallardo,Base de datos,2
+Clavijo,INF-164,2
+Hurtado (Victoria),INF-121,2
+Cotana,INF-241,2
+Rogelio,Programación,2
+Castaños,Programación web,2
+Huanca (César),Estructura de datos,2
+Contreras,SEG-251,2
+Mullisaca,INF-315,2
+Reyes,INF-152,2
+Hurtado (Victoria),INF-111,2
+Zeballos (José Luis),INF-281,2
+Willy (Apaza),Estadística,2
+Willy (Apaza),Álgebra,2
+Rogelio,INF-123,2
+Dolz,Legislación,2
+Menfy (Morales),Ciencia de datos,2
+Ramiro (Choque),Redes,2
+Patzi,Álgebra,2
+Alcón (Rubén),SIS-262,2
+Huanca (César),Física,2
+Mullisaca,INF-371,2
+Llanque,Redes,2
+Patricio,INF-131,2
+Tapia (José María),Programación,2
+Benito,INF-134,2
+Germán,Seguridad de sistemas,2
+Huanca (César),Álgebra,2
+Flores,Simulación,2
+Hermenegildo,INF-332,2
+Huanca (César),Criptografía,2
+Germán,Criptografía,2
+Fabiola,Álgebra,2
+Alcón (Rubén),Programación,2
+Colque (Elba),Cálculo,2
+Terán,Cálculo,1
+Terán,Física,1
+Alcón (Rubén),INF-271,1
+Cosme,INF-124,1
+Nilda,EST-165,1
+Chávez,EST-155,1
+Beltrán,INF-166,1
+Terán,INF-111,1
+Marisol,Programación web,1
+Toledo,INF-354,1
+Clavijo,INF-112,1
+Blacutt,INF-273,1
+Corini,INF-133,1
+Brígida,Ecuaciones diferenciales,1
+Brígida,DAT-243,1
+Paola,Álgebra,1
+Grover,Redes,1
+Chávez,Base de datos,1
+Chávez,Redes,1
+Alcón (Rubén),INF-154,1
+Terán,Telemática,1
+Mullisaca,INF-156,1
+Mullisaca,SEG-245,1
+Brígida,SIS-254,1
+Llanque,INF-166,1
+Cotana,INF-162,1
+Colque (Elba),Electrónica,1
+Luisa (Velásquez),INF-351,1
+Huanca (César),INF-253,1
+Carmen,INF-253,1
+Cotana,SIS-241,1
+Beltrán,INF-142,1
+Vargas,INF-122,1
+Menfy (Morales),Programación,1
+Rogelio,INF-133,1
+Hurtado (Victoria),Cálculo,1
+Hurtado (Victoria),Análisis y diseño de sistemas,1
+Hurtado (Victoria),INF-241,1
+Eugenio,Programación web,1
+Grover,INF-271,1
+Yohoni,INF-282,1
+Rudy,INF-114,1
+Felipez,Base de datos,1
+Zeballos (José Luis),Estadística,1
+Zeballos (José Luis),Física,1
+Silva (Moisés),Estadística,1
+Silva (Moisés),Física,1
+Felipez,INF-121,1
+Eufren,Programación,1
+Tarquino,Estructura de datos,1
+Germán,Programación web,1
+Grover,Teoría de sistemas,1
+Grover,SIS-262,1
+Luisa (Velásquez),INF-163,1
+Chávez,SIS-243,1
+Huanca (César),INF-282,1
+Hermenegildo,SIS-244,1
+Huanca (César),Ingeniería de software,1
+Torrico,INF-111,1
+Brígida,Programación web,1
+Reyes,SIS-244,1
+Huanca (César),INF-262,1
+Huanca (César),SIS-264,1
+Germán,INF-262,1
+Germán,SIS-264,1
+Beltrán,INF-112,1
+Ramiro (Choque),Programación,1
+Ramiro (Choque),INF-320,1
+Flores,Programación,1
+Castaños,INF-126,1
+Eugenio,INF-126,1
+Grover,INF-161,1
+Rogelio,Base de datos,1
+Contreras,INF-254,1
+Castaños,INF-115,1
+Beltrán,INF-164,1
+Zenón,INF-115,1
+Burgoa,Estadística,1
+Cosme,Electrónica,1
+Elvis,Programación,1
+Contreras,Legislación,1
+Téllez (Marisol),Álgebra,1
+Miriam,Programación,1
+Pozo,INF-122,1
+Nilda,Dispositivos móviles,1
+Aruquipa,Electrónica,1
+Silva (Moisés),Electrónica,1
+Chapi,Programación,1
+Hermenegildo,SIS-263,1
+Torrico,COM-245,1
+Torrico,Lenguajes formales y autómatas,1
+Téllez (Marisol),Robótica,1
+Alcón (Rubén),Electrónica,1
+Eufren,INF-111,1
+Burgoa,INF-116,1
+Mendoza (Salomón),CPA-201,1
+Clavijo,Matemática discreta,1
+Grover,Sistemas operativos,1
+Alcón (Rubén),Base de datos,1
+Eufren,INF-112,1
+Llanque,INF-112,1
+Huaranca,Criptografía,1
+Clavijo,Estadística,1
+Clavijo,Inteligencia artificial,1
+Silva (Moisés),Inteligencia artificial,1
+Miranda,INF-131,1
+Huaranca,INF-115,1
+Cotana,Base de datos,1
+Cotana,Redes,1
+Benito,INF-133,1
+Felipez,INF-133,1
+Felipez,INF-134,1
+Luisa (Velásquez),Estadística,1
+Luisa (Velásquez),Programación web,1
+Téllez (Marisol),Cálculo,1
+Téllez (Marisol),Estadística,1
+Aruquipa,Cálculo,1
+Aruquipa,Estadística,1
+Huanca (César),Cálculo,1
+Huanca (César),Programación web,1
+Zenón,Estadística,1
+Zenón,Programación web,1
+Castaños,Programación,1
+Castaños,Estadística,1
+Valero,Programación,1
+Valero,Estadística,1
+Valero,Programación web,1
+Llanque,Cálculo,1
+Llanque,Estadística,1
+Llanque,Programación web,1
+Dolz,Programación,1
+Dolz,Cálculo,1
+Dolz,Estadística,1
+Dolz,Programación web,1
+Huanca (César),INF-111,1
+Huanca (César),SEG-262,1
+Germán,SEG-262,1
+Contreras,Base de datos,1
+Contreras,Redes,1
+Contreras,Criptografía,1
+Contreras,Seguridad de sistemas,1
+Contreras,SEG-254,1
+Contreras,INF-251,1
+Contreras,SEG-253,1
+Contreras,SEG-262,1
+Eufren,Álgebra,1
+Llanque,Álgebra,1
+Ramiro (Choque),Álgebra,1
+Mendoza (Salomón),SIS-373,1
+Mullisaca,INF-265,1
+Grover,Programación,1
+Yohoni,Robótica,1
+Brígida,INF-281,1
+Zeballos (José Luis),INF-246,1
+Patricio,Criptografía,1
+Alcón (Rubén),Compiladores,1
+Marisol,INF-111,1
+Luisa (Velásquez),Ingeniería de software,1
+Fabiola,INF-125,1
+Tapia (José María),Programación web,1
+Laura (Fernando),Programación,1
+Alcón (Rubén),Dispositivos móviles,1
+Elvis,Cálculo,1
+Miranda,Dispositivos móviles,1
+Téllez (Marisol),Inteligencia artificial,1
+Terán,Análisis y diseño de sistemas,1
+Beltrán,Legislación,1
+Luisa (Velásquez),Programación,1
+Zeballos (José Luis),INF-132,1
+Grover,INF-381,1
+Madelina,Análisis y diseño de sistemas,1
+Grover,INF-281,1
+Grover,Taller de proyecto,1
+Alcón (Rubén),Programación web,1
+Felipez,EST-155,1
+Brígida,Programación,1
+Chirino,EST-133,1
+Vargas,Programación,1
+Vargas,Programación web,1
+Chávez,Programación web,1
+Silva (Moisés),INF-163,1
+Felipez,INF-111,1
+Huaranca,INF-114,1
+Mullisaca,MAT-156,1
+Zeballos (José Luis),INF-153,1
+Willy (Apaza),INF-115,1
+Eugenio,INF-114,1
+Yohoni,INF-142,1

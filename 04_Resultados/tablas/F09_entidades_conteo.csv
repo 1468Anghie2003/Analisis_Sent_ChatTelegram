@@ -1,0 +1,280 @@
+﻿tipo,entidad,N
+codigo_materia,INF-114,74
+codigo_materia,INF-111,67
+codigo_materia,INF-131,50
+codigo_materia,INF-121,48
+codigo_materia,INF-116,41
+codigo_materia,INF-122,28
+codigo_materia,INF-112,27
+codigo_materia,INF-123,27
+codigo_materia,MAT-114,25
+codigo_materia,INF-115,24
+codigo_materia,INF-133,21
+codigo_materia,INF-113,19
+codigo_materia,INF-135,17
+codigo_materia,LAB-273,16
+codigo_materia,FIS-122,16
+codigo_materia,INF-132,15
+codigo_materia,INF-124,12
+codigo_materia,INF-125,12
+codigo_materia,SIS-255,12
+codigo_materia,MAT-115,12
+codigo_materia,FIS-132,11
+codigo_materia,INF-164,11
+codigo_materia,INF-273,10
+codigo_materia,INF-126,10
+codigo_materia,SEG-253,10
+codigo_materia,LAB-131,10
+codigo_materia,EST-155,9
+codigo_materia,INF-154,9
+codigo_materia,EST-133,9
+codigo_materia,INF-282,8
+codigo_materia,INF-241,8
+codigo_materia,INF-333,8
+codigo_materia,INF-281,8
+codigo_materia,LAB-111,8
+codigo_materia,MAT-125,7
+codigo_materia,MAT-124,7
+codigo_materia,INF-271,6
+codigo_materia,INF-117,6
+codigo_materia,EST-165,6
+codigo_materia,INF-143,6
+codigo_materia,INF-314,6
+codigo_materia,INF-151,6
+codigo_materia,INF-134,6
+codigo_materia,INF-351,6
+codigo_materia,SIS-244,5
+codigo_materia,INF-320,5
+codigo_materia,EST-145,5
+codigo_materia,INF-161,5
+codigo_materia,INF-272,5
+codigo_materia,SEG-243,5
+codigo_materia,CPA-201,5
+codigo_materia,SIS-262,5
+codigo_materia,INF-381,5
+codigo_materia,LAB-121,5
+codigo_materia,INF-144,4
+codigo_materia,DAT-245,4
+codigo_materia,SEG-245,4
+codigo_materia,INF-244,4
+codigo_materia,INF-354,4
+codigo_materia,INF-141,4
+codigo_materia,INF-162,4
+codigo_materia,SIS-253,4
+codigo_materia,SIS-246,4
+codigo_materia,INF-251,4
+codigo_materia,INF-331,4
+codigo_materia,INF-152,3
+codigo_materia,SEG-246,3
+codigo_materia,MAT-156,3
+codigo_materia,INF-357,3
+codigo_materia,SEG-251,3
+codigo_materia,INF-163,3
+codigo_materia,INF-315,3
+codigo_materia,SIS-263,3
+codigo_materia,COM-245,3
+codigo_materia,INF-330,3
+codigo_materia,SEG-254,3
+codigo_materia,SEG-262,3
+codigo_materia,LAB-132,3
+codigo_materia,MAT-123,3
+codigo_materia,SIS-241,2
+codigo_materia,INF-360,2
+codigo_materia,INF-166,2
+codigo_materia,MAT-134,2
+codigo_materia,SIS-243,2
+codigo_materia,INF-246,2
+codigo_materia,COM-241,2
+codigo_materia,INF-253,2
+codigo_materia,INF-142,2
+codigo_materia,INF-245,2
+codigo_materia,INF-391,2
+codigo_materia,INF-242,2
+codigo_materia,SIS-265,2
+codigo_materia,INF-329,2
+codigo_materia,INF-254,2
+codigo_materia,INF-311,2
+codigo_materia,SIS-252,2
+codigo_materia,INF-371,2
+codigo_materia,SEG-252,2
+codigo_materia,INF-266,2
+codigo_materia,SIS-372,2
+codigo_materia,SIS-373,2
+codigo_materia,INF-332,2
+codigo_materia,SEG-264,2
+codigo_materia,INF-153,2
+codigo_materia,LAB-122,2
+codigo_materia,COM-242,1
+codigo_materia,MAT-126,1
+codigo_materia,DAT-243,1
+codigo_materia,DAT-242,1
+codigo_materia,INF-156,1
+codigo_materia,SIS-254,1
+codigo_materia,DAT-252,1
+codigo_materia,DAT-254,1
+codigo_materia,INF-243,1
+codigo_materia,INF-136,1
+codigo_materia,INF-262,1
+codigo_materia,SIS-264,1
+codigo_materia,DAT-241,1
+codigo_materia,SIS-381,1
+codigo_materia,COM-261,1
+codigo_materia,DAT-263,1
+codigo_materia,INF-264,1
+codigo_materia,INF-372,1
+codigo_materia,INF-323,1
+codigo_materia,INF-265,1
+codigo_materia,SIS-245,1
+codigo_materia,INF-382,1
+codigo_materia,SEG-263,1
+codigo_materia,SIS-371,1
+codigo_materia,INF-383,1
+codigo_materia,SIS-382,1
+codigo_materia,INF-335,1
+codigo_materia,SEG-261,1
+codigo_materia,MAT-111,1
+codigo_materia,INF-316,1
+codigo_materia,INF-317,1
+codigo_materia,INF-165,1
+docente,Huanca (César),126
+docente,Zeballos (José Luis),115
+docente,Silva (Moisés),111
+docente,Tarquino,78
+docente,Téllez (Marisol),71
+docente,Aruquipa,71
+docente,Alcón (Rubén),62
+docente,Zenón,58
+docente,Tapia (José María),58
+docente,Luisa (Velásquez),56
+docente,Mullisaca,56
+docente,Hurtado (Victoria),48
+docente,Castaños,45
+docente,Chapi,43
+docente,Felipez,42
+docente,Gallardo,40
+docente,Rudy,40
+docente,Grover,40
+docente,Terán,37
+docente,Nilda,37
+docente,Burgoa,35
+docente,Chávez,35
+docente,Cotana,34
+docente,Chirino,34
+docente,Menfy (Morales),33
+docente,Llanque,33
+docente,Helder,32
+docente,Benito,32
+docente,Flores,30
+docente,Valero,28
+docente,Brígida,27
+docente,Elvis,27
+docente,Miriam,26
+docente,Contreras,25
+docente,Blacutt,24
+docente,Ramiro (Choque),24
+docente,Huaranca,23
+docente,Reyes,21
+docente,Patzi,21
+docente,Clavijo,20
+docente,Rogelio,20
+docente,Cosme,19
+docente,Willy (Apaza),19
+docente,Silverio,18
+docente,Miranda,17
+docente,Patricio,17
+docente,Dolz,15
+docente,Yohoni,15
+docente,Marisol,14
+docente,Eugenio,14
+docente,Madelina,13
+docente,Fabiola,13
+docente,Eufren,13
+docente,Hermenegildo,12
+docente,Pozo,12
+docente,Germán,12
+docente,Carmen,11
+docente,Beltrán,10
+docente,Vargas,10
+docente,Toledo,10
+docente,Corini,9
+docente,Torrico,9
+docente,Paola,9
+docente,Colque (Elba),6
+docente,Mendoza (Salomón),3
+docente,Laura (Fernando),2
+horario,Mañana (7-12),76
+horario,Tarde (14-18),70
+horario,Noche (18-22),55
+horario,Mediodía (12-14),24
+lugar,Kardex,334
+lugar,Aulas,297
+lugar,Piso / planta,162
+lugar,Dirección de carrera,135
+lugar,Decanato / FCPN,59
+lugar,Laboratorio,51
+lugar,Banco,47
+lugar,Oficina de temporada,40
+lugar,Coordinación,25
+lugar,Edificio de informática,20
+lugar,Biblioteca,18
+lugar,Centro de estudiantes,11
+lugar,Monoblock,9
+lugar,Rectorado,8
+lugar,Cota Cota,8
+lugar,Auditorio,6
+lugar,Cafetería / comedor,4
+materia,Cálculo,359
+materia,Álgebra,325
+materia,Programación,287
+materia,Estadística,277
+materia,Base de datos,226
+materia,Programación web,156
+materia,Electrónica,125
+materia,Redes,114
+materia,Física,113
+materia,Sistemas operativos,68
+materia,Seguridad de sistemas,50
+materia,Dispositivos móviles,43
+materia,Inteligencia artificial,37
+materia,Investigación operativa,33
+materia,Análisis y diseño de sistemas,27
+materia,Métodos numéricos,27
+materia,Robótica,26
+materia,Ingeniería de software,23
+materia,Legislación,22
+materia,Simulación,20
+materia,Criptografía,19
+materia,Telemática,18
+materia,Matemática discreta,12
+materia,Estructura de datos,6
+materia,Ciencia de datos,5
+materia,Taller de proyecto,5
+materia,Ecuaciones diferenciales,3
+materia,Lenguajes formales y autómatas,2
+materia,Teoría de sistemas,1
+materia,Compiladores,1
+plataforma,WhatsApp,244
+plataforma,Código QR,136
+plataforma,Formulario Google,93
+plataforma,Classroom,61
+plataforma,Correo institucional,56
+plataforma,Telegram,43
+plataforma,Facebook,10
+plataforma,YouTube,7
+plataforma,Moodle,4
+plataforma,TikTok,3
+plataforma,Google Meet,2
+tramite,Inscripción,1108
+tramite,Depósito / pago,863
+tramite,Sistema SSA,615
+tramite,Habilitación de materia,570
+tramite,Notas / exámenes,512
+tramite,Adición y retiro,494
+tramite,Cupos,326
+tramite,Carta / solicitud,288
+tramite,Choque de horario,217
+tramite,CPT / código de pago,217
+tramite,Matrícula,119
+tramite,Devolución de dinero,91
+tramite,Sorteo de inscripción,68
+tramite,Convalidación,58

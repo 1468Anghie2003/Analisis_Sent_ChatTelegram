@@ -1,0 +1,24 @@
+# Datos crudos y derivados con texto de personas (no subir a un repositorio público)
+01_Dataset/*.json
+01_Dataset/*.csv
+04_Resultados/checkpoints/
+04_Resultados/validacion/muestra_para_etiquetar.csv
+*.rds
+05_Bitacora/privado/
+
+# Informe con nombres reales de docentes (se entrega aparte)
+INFORME.docx
+INFORME.pdf
+~$*.docx
+
+# R / RStudio / VS Code
+.Rhistory
+.RData
+.Rproj.user/
+.vscode/
+05_Bitacora/log_consola.txt
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini

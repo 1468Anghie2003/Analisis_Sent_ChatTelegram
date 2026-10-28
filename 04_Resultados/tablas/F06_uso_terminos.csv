@@ -1,0 +1,528 @@
+﻿termino,sentimiento,fuente,mensajes,peso
+alguien sabe,curiosidad,frase,1135,1704
+??,confusion,emoticon,923,738.4
+gracias,gratitud,palabra,459,468.5
+alguien tiene,curiosidad,frase,354,531
+xd,alegria,palabra,279,280
+saben si,curiosidad,frase,264,397.5
+recomiendan,curiosidad,palabra,264,264
+una pregunta,curiosidad,frase,176,264
+que tal es,curiosidad,frase,174,261
+informacion,curiosidad,palabra,166,168
+una consulta,curiosidad,frase,140,210
+muchas gracias,gratitud,frase,121,183
+jaja,alegria,palabra,118,121.5
+🙏,gratitud,emoji,112,147
+:v,alegria,emoticon,100,80
+quien recomiendan,curiosidad,frase,86,129
+👀,curiosidad,emoji,86,100
+😢,tristeza,emoji,80,97
+ok,tranquilidad,palabra,78,78
+pregunta,curiosidad,palabra,72,73
+no me deja,frustracion,frase,68,105
+no se puede,frustracion,frase,67,100.5
+sin cupo,frustracion,frase,67,100.5
+facil,tranquilidad,palabra,66,71.5
+👍,satisfaccion,emoji,63,51
+:(,tristeza,emoticon,62,49.6
+duda,confusion,palabra,61,61.5
+🥲,tristeza,emoji,61,81
+como es el lic,curiosidad,frase,58,87
+no me aparece,frustracion,frase,57,85.5
+😅,preocupacion,emoji,57,46.5
+ensena bien,admiracion,frase,56,84
+😔,tristeza,emoji,53,57
+😂,alegria,emoji,52,82
+error,frustracion,palabra,48,49
+gracias por,gratitud,frase,47,70.5
+se habilito,satisfaccion,frase,47,70.5
+mal,enojo,palabra,47,49.5
+👌,satisfaccion,emoji,45,36
+😭,tristeza,emoji,45,66.25
+deberian,enojo,palabra,44,44.5
+🥺,esperanza,emoji,39,48
+suerte,esperanza,palabra,37,37
+buen docente,admiracion,frase,35,52.5
+dificil,cansancio,palabra,34,36
+🤔,confusion,emoji,34,47
+malo,enojo,palabra,33,34.5
+vale,tranquilidad,palabra,33,34
+esta bien,tranquilidad,frase,32,48
+aprobe,satisfaccion,palabra,31,34
+ayuda,preocupacion,palabra,31,32
+no me sale,frustracion,frase,30,45
+habilitaron,satisfaccion,palabra,30,30
+🥹,tristeza,emoji,30,32
+no hay cupo,frustracion,frase,29,48
+peor,enojo,palabra,29,30
+no hay cupos,frustracion,frase,28,42
+:'v,tristeza,emoticon,28,22.4
+alguien conoce,curiosidad,frase,27,40.5
+reclamar,enojo,palabra,27,27
+que paso,confusion,frase,26,39
+espero,esperanza,palabra,26,26
+recomendable,admiracion,palabra,25,26.5
+animense,esperanza,palabra,25,25
+raro,sorpresa,palabra,25,25
+😁,alegria,emoji,25,26
+🤣,alegria,emoji,25,43.75
+sera que,confusion,frase,24,36
+nose,confusion,palabra,24,25
+accesible,admiracion,palabra,24,26.5
+ojala,esperanza,palabra,24,24
+:),alegria,emoticon,24,19.2
+:D,alegria,emoticon,24,19.2
+pase con,satisfaccion,frase,23,34.5
+✅,satisfaccion,emoji,23,20.25
+sin cupos,frustracion,frase,21,31.5
+muy buena,admiracion,frase,21,31.5
+reclam,enojo,raiz,21,17.6
+enserio,sorpresa,palabra,21,21.5
+😊,alegria,emoji,21,15.75
+🫠,cansancio,emoji,21,31
+se cerro,frustracion,frase,20,30
+recomiendo,admiracion,palabra,20,20
+no se si,confusion,frase,19,28.5
+la mejor,admiracion,frase,19,28.5
+ojo,preocupacion,palabra,19,19
+dale,tranquilidad,palabra,19,21
+exigente,cansancio,palabra,19,23
+😞,tristeza,emoji,19,22
+uff,sorpresa,emoticon,19,15.2
+ensena muy bien,admiracion,frase,18,27
+ultimo dia,preocupacion,frase,18,28.5
+plazo,preocupacion,palabra,18,18
+como es la lic,curiosidad,frase,17,25.5
+alguien que haya,curiosidad,frase,17,25.5
+el mejor,admiracion,frase,17,27
+preocup,preocupacion,raiz,17,14.8
+se abrio,satisfaccion,frase,16,24
+sabes si,curiosidad,frase,16,24
+dudas,confusion,palabra,16,16
+mala,enojo,palabra,16,16.5
+consulta,curiosidad,palabra,16,16
+esperemos,esperanza,palabra,16,16
+😱,preocupacion,emoji,16,25
+toca esperar,frustracion,frase,15,22.5
+abrieron,satisfaccion,palabra,15,15
+ya esta habilitado,satisfaccion,frase,14,21
+que hago,preocupacion,frase,14,21
+quisiera saber,curiosidad,frase,14,21
+entendido,tranquilidad,palabra,14,15
+listo,satisfaccion,palabra,14,14
+ayuda por favor,preocupacion,frase,13,19.5
+no funciona,frustracion,frase,13,19.5
+chale,frustracion,palabra,13,13
+dudo,confusion,palabra,13,13
+enoj,enojo,raiz,13,11.2
+complicado,cansancio,palabra,13,15
+uf,sorpresa,palabra,13,13
+moles,enojo,raiz,13,11.2
+rapido,preocupacion,palabra,13,15
+😐,decepcion,emoji,13,9.75
+😬,preocupacion,emoji,13,21
+otra vez,frustracion,frase,12,18
+pense que,decepcion,frase,12,18
+tranqui,tranquilidad,palabra,12,12
+tranqui,tranquilidad,raiz,12,9.6
+tranquilo,tranquilidad,palabra,12,12
+💀,alegria,emoji,12,16
+¿?,confusion,emoticon,12,9.6
+que tal el,curiosidad,frase,11,16.5
+no se abrio,decepcion,frase,11,16.5
+no me salen,frustracion,frase,11,16.5
+se aprende,admiracion,frase,11,16.5
+gracias bro,gratitud,frase,11,16.5
+alguien paso,curiosidad,frase,11,16.5
+imposible,sorpresa,palabra,11,11
+no puedo inscribirme,frustracion,frase,10,15
+en vano,frustracion,frase,10,15
+ni modo,frustracion,frase,10,15
+ni idea,confusion,frase,10,15
+muy bueno,admiracion,frase,10,15
+confu,confusion,raiz,10,8
+gg,decepcion,palabra,10,10
+lamentablemente,decepcion,palabra,10,10
+perdido,confusion,palabra,10,10.5
+👏,admiracion,emoji,10,16
+😳,sorpresa,emoji,10,10
+🙄,decepcion,emoji,10,10
+🤙,tranquilidad,emoji,10,7.5
+ya me inscribi,satisfaccion,frase,9,13.5
+alguien sabes,curiosidad,frase,9,13.5
+no entiendo,confusion,frase,9,13.5
+se cerraron,frustracion,frase,9,13.5
+buen lic,admiracion,frase,9,13.5
+de verdad,sorpresa,frase,9,13.5
+cuidado,preocupacion,palabra,9,9
+urgente,preocupacion,palabra,9,9
+agradec,gratitud,raiz,9,8
+feliz,alegria,palabra,9,10
+🧐,curiosidad,emoji,9,13
+no pasa nada,tranquilidad,frase,8,12
+que se abra,esperanza,frase,8,12
+aprobe con,satisfaccion,frase,8,13.5
+gracias amigo,gratitud,frase,8,12
+como funciona,confusion,frase,8,12
+uy,sorpresa,palabra,8,8
+sufrir,tristeza,palabra,8,10
+😃,alegria,emoji,8,8
+🤡,decepcion,emoji,8,9
+🫂,gratitud,emoji,8,8
+no estoy seguro,confusion,frase,7,10.5
+porque me sale,confusion,frase,7,10.5
+no se que,confusion,frase,7,10.5
+para nada,decepcion,frase,7,10.5
+en serio,sorpresa,frase,7,10.5
+explica bien,admiracion,frase,7,10.5
+con calma,tranquilidad,frase,7,10.5
+los mejores,admiracion,frase,7,10.5
+que significa,confusion,frase,7,10.5
+quejas,enojo,palabra,7,7
+respeto,admiracion,palabra,7,7
+💪,esperanza,emoji,7,7
+😑,decepcion,emoji,7,6.75
+😿,tristeza,emoji,7,7
+🤭,alegria,emoji,7,6
+:c,tristeza,emoticon,7,5.6
+de la nada,sorpresa,frase,6,9
+que tal la,curiosidad,frase,6,9
+no cumplen,decepcion,frase,6,9
+ya fue,frustracion,frase,6,9
+quiero saber,curiosidad,frase,6,9
+buena docente,admiracion,frase,6,9
+pesado,cansancio,palabra,6,6
+interesante,curiosidad,palabra,6,6
+demasiado,cansancio,palabra,6,6
+excelente,admiracion,palabra,6,6.5
+✨,esperanza,emoji,6,5.25
+🔥,admiracion,emoji,6,6
+😎,tranquilidad,emoji,6,4.5
+😮‍💨,cansancio,emoji,6,6
+🙂,alegria,emoji,6,4.5
+🙈,preocupacion,emoji,6,6
+🤓,curiosidad,emoji,6,4.5
+🤧,cansancio,emoji,6,6
+por que me sale,confusion,frase,5,7.5
+no puedo entrar,frustracion,frase,5,7.5
+ya no puedo,cansancio,frase,5,7.5
+no me aparecen,frustracion,frase,5,7.5
+a ver si,esperanza,frase,5,7.5
+no te preocupes,tranquilidad,frase,5,7.5
+no habilitaron,decepcion,frase,5,7.5
+buena lic,admiracion,frase,5,7.5
+no alcance,frustracion,frase,5,7.5
+se cayo,frustracion,frase,5,7.5
+pesim,enojo,raiz,5,4
+miedo,preocupacion,palabra,5,5
+agradezco,gratitud,palabra,5,5
+riesgo,preocupacion,palabra,5,5
+triste,tristeza,palabra,5,5
+reclamo,enojo,palabra,5,5
+pesada,cansancio,palabra,5,5
+calma,tranquilidad,palabra,5,5
+ira,enojo,palabra,5,5
+pesima,enojo,palabra,5,5
+😀,alegria,emoji,5,3.75
+😉,alegria,emoji,5,3.75
+😒,decepcion,emoji,5,5
+😓,preocupacion,emoji,5,8
+😪,tristeza,emoji,5,3.75
+😶,sorpresa,emoji,5,4.5
+🙃,alegria,emoji,5,3.75
+🤑,satisfaccion,emoji,5,3.75
+🤷‍♂,confusion,emoji,5,5
+T_T,tristeza,emoticon,5,4
+alguien me puede ayudar,preocupacion,frase,4,6
+al final no,decepcion,frase,4,6
+me podrian decir,curiosidad,frase,4,6
+no puede ser,sorpresa,frase,4,6
+ya pude,satisfaccion,frase,4,6
+no entendi,confusion,frase,4,6
+excelente docente,admiracion,frase,4,6
+muchisimas gracias,gratitud,frase,4,6
+siempre pasa,frustracion,frase,4,6
+que recomiendan,curiosidad,frase,4,6
+se pierde,preocupacion,frase,4,6
+no sabia,sorpresa,frase,4,6
+mala suerte,frustracion,frase,4,6
+buen licenciado,admiracion,frase,4,6
+reprobe,decepcion,palabra,4,4
+grax,gratitud,palabra,4,4
+animo,esperanza,palabra,4,4
+paz,tranquilidad,palabra,4,4
+lol,alegria,palabra,4,4
+perdida,confusion,palabra,4,4
+crack,admiracion,palabra,4,4.5
+funciono,satisfaccion,palabra,4,4
+🎉,satisfaccion,emoji,4,5
+💔,tristeza,emoji,4,5
+💤,cansancio,emoji,4,3
+😌,tranquilidad,emoji,4,5
+😕,confusion,emoji,4,4
+😠,enojo,emoji,4,4
+😫,cansancio,emoji,4,4
+🙌,satisfaccion,emoji,4,4
+🤨,confusion,emoji,4,5
+🤷,confusion,emoji,4,4
+🥳,satisfaccion,emoji,4,7.5
+como es el docente,curiosidad,frase,3,4.5
+hoy es el ultimo,preocupacion,frase,3,4.5
+alguien me explica,confusion,frase,3,4.5
+no puedo ingresar,frustracion,frase,3,4.5
+no se preocupen,tranquilidad,frase,3,4.5
+me pueden decir,curiosidad,frase,3,4.5
+no se como,confusion,frase,3,4.5
+van a cerrar,preocupacion,frase,3,4.5
+gracias companero,gratitud,frase,3,4.5
+aprendes mucho,admiracion,frase,3,4.5
+alguien tomo,curiosidad,frase,3,4.5
+no aprobe,tristeza,frase,3,4.5
+lo recomiendo,admiracion,frase,3,4.5
+me asuste,preocupacion,frase,3,4.5
+por fin,satisfaccion,frase,3,4.5
+se soluciono,satisfaccion,frase,3,4.5
+mil gracias,gratitud,frase,3,4.5
+me funciono,satisfaccion,frase,3,4.5
+no carga,frustracion,frase,3,4.5
+sin problema,tranquilidad,frase,3,4.5
+domina,admiracion,palabra,3,3
+queja,enojo,palabra,3,3
+alv,enojo,palabra,3,3
+corazon,admiracion,palabra,3,3
+fuerza,esperanza,palabra,3,3
+wow,sorpresa,palabra,3,3
+gracia,gratitud,palabra,3,3
+nmms,sorpresa,palabra,3,3
+molesta,enojo,palabra,3,3
+envidia,enojo,palabra,3,3
+recomendado,admiracion,palabra,3,3.5
+mentira,decepcion,palabra,3,3
+paciente,admiracion,palabra,3,3
+chales,frustracion,palabra,3,3
+pesimo,enojo,palabra,3,3
+llorar,tristeza,palabra,3,3
+reprobaron,decepcion,palabra,3,3
+prometieron,decepcion,palabra,3,3
+aburr,cansancio,raiz,3,3.2
+perfecto,satisfaccion,palabra,3,3
+☠,alegria,emoji,3,2.25
+☺,alegria,emoji,3,2.25
+❓,confusion,emoji,3,3.75
+😄,alegria,emoji,3,3
+😋,alegria,emoji,3,2.25
+😏,alegria,emoji,3,2.25
+😥,tristeza,emoji,3,3
+😵‍💫,confusion,emoji,3,4
+🤗,gratitud,emoji,3,6
+🫣,preocupacion,emoji,3,3.75
+🫥,decepcion,emoji,3,2.25
+vamos que se puede,esperanza,frase,2,3
+no se donde,confusion,frase,2,3
+que mala suerte,frustracion,frase,2,3
+vale la pena,satisfaccion,frase,2,3
+se me fue,tristeza,frase,2,3
+no estoy segura,confusion,frase,2,3
+crei que,decepcion,frase,2,3
+con fe,esperanza,frase,2,3
+me preocupa,preocupacion,frase,2,3
+sin problemas,tranquilidad,frase,2,3
+todo bien,tranquilidad,frase,2,3
+le agradeceria,gratitud,frase,2,3
+da miedo,preocupacion,frase,2,3
+que bien,alegria,frase,2,3
+no respetan,enojo,frase,2,3
+pena ajena,decepcion,frase,2,3
+no abrieron,decepcion,frase,2,3
+se cancelo,decepcion,frase,2,3
+falta poco,esperanza,frase,2,3
+que triste,tristeza,frase,2,3
+agradecido,gratitud,palabra,2,2.5
+genial,alegria,palabra,2,2
+horrible,enojo,palabra,2,2
+cancelaron,decepcion,palabra,2,2
+ansiedad,preocupacion,palabra,2,2
+confusion,confusion,palabra,2,2
+rabia,enojo,palabra,2,2
+falso,decepcion,palabra,2,2
+sueno,cansancio,palabra,2,2
+mierda,enojo,palabra,2,2
+nimodo,frustracion,palabra,2,2
+rara,sorpresa,palabra,2,2
+confirmado,tranquilidad,palabra,2,3
+conforme,satisfaccion,palabra,2,2
+sorpren,sorpresa,raiz,2,1.6
+reprobado,decepcion,palabra,2,2
+chucha,enojo,palabra,2,2
+flexible,admiracion,palabra,2,2
+logre,satisfaccion,palabra,2,2
+cansa,cansancio,raiz,2,1.6
+cansado,cansancio,palabra,2,2
+curiosidad,curiosidad,palabra,2,2
+extrano,confusion,palabra,2,2
+burocracia,frustracion,palabra,2,2
+organizado,admiracion,palabra,2,3.5
+curios,curiosidad,raiz,2,1.6
+amor,admiracion,palabra,2,2
+tolerante,admiracion,palabra,2,3
+esperanz,esperanza,raiz,2,1.6
+exito,esperanza,palabra,2,2
+lograremos,esperanza,palabra,2,2
+❗,sorpresa,emoji,2,3
+❤,admiracion,emoji,2,2
+🍀,tranquilidad,emoji,2,1.5
+😆,alegria,emoji,2,2
+😇,tranquilidad,emoji,2,3
+😈,alegria,emoji,2,1.5
+😍,admiracion,emoji,2,2
+😜,alegria,emoji,2,1.5
+😡,enojo,emoji,2,2.5
+😣,frustracion,emoji,2,2
+😧,sorpresa,emoji,2,1.5
+😨,preocupacion,emoji,2,2
+😵,sorpresa,emoji,2,1.5
+🙋‍♂,esperanza,emoji,2,1.5
+🚨,preocupacion,emoji,2,2
+🤦‍♂,decepcion,emoji,2,2
+🤬,enojo,emoji,2,2.5
+<3,admiracion,emoticon,2,1.6
+u.u,tristeza,emoticon,2,1.6
+uwu,alegria,emoticon,2,1.6
+no vale la pena,decepcion,frase,1,1.5
+no se que hacer,preocupacion,frase,1,1.5
+se les agradece,gratitud,frase,1,1.5
+te lo recomiendo,admiracion,frase,1,1.5
+siempre lo mismo,frustracion,frase,1,1.5
+explica muy bien,admiracion,frase,1,1.5
+de nada sirvio,decepcion,frase,1,1.5
+vamos a poder,esperanza,frase,1,1.5
+me gustaria saber,curiosidad,frase,1,1.5
+ojala se habilite,esperanza,frase,1,1.5
+perdi la materia,tristeza,frase,1,1.5
+me fue bien,satisfaccion,frase,1,1.5
+alguien me ayude,preocupacion,frase,1,1.5
+no hay problema,tranquilidad,frase,1,1.5
+no puedo pagar,frustracion,frase,1,1.5
+me da miedo,preocupacion,frase,1,1.5
+pase la materia,satisfaccion,frase,1,1.5
+hasta la madre,enojo,frase,1,1.5
+todavia hay tiempo,tranquilidad,frase,1,1.5
+falta de respeto,enojo,frase,1,1.5
+dios mio,sorpresa,frase,1,1.5
+una burla,enojo,frase,1,1.5
+el colmo,enojo,frase,1,1.5
+no responden,frustracion,frase,1,1.5
+lo logre,satisfaccion,frase,1,1.5
+que verguenza,enojo,frase,1,1.5
+se abrio,decepcion,frase+ironia,1,1.5
+muy recomendable,admiracion,frase,1,1.5
+que pena,tristeza,frase,1,1.5
+nadie responde,frustracion,frase,1,1.5
+muy amable,gratitud,frase,1,1.5
+te agradeceria,gratitud,frase,1,1.5
+la recomiendo,admiracion,frase,1,1.5
+buena licenciada,admiracion,frase,1,1.5
+estoy perdida,confusion,frase,1,1.5
+pesima atencion,enojo,frase,1,1.5
+me tiro,decepcion,frase,1,1.5
+que bueno,alegria,frase,1,1.5
+ojala abran,esperanza,frase,1,1.5
+tengo miedo,preocupacion,frase,1,1.5
+sabe alguien,curiosidad,frase,1,1.5
+ya casi,esperanza,frase,1,1.5
+no sirve,decepcion,frase,1,1.5
+abrazo,admiracion,palabra,1,1
+lastima,tristeza,palabra,1,1
+tedioso,cansancio,palabra,1,1
+confundida,confusion,palabra,1,1
+preocupado,preocupacion,palabra,1,1
+alegria,alegria,palabra,1,2
+jeje,alegria,raiz,1,0.8
+colapsado,frustracion,palabra,1,1
+preocupacion,preocupacion,palabra,1,1
+exigir,enojo,palabra,1,1
+inesper,sorpresa,raiz,1,0.8
+llor,tristeza,raiz,1,0.8
+auxilio,preocupacion,palabra,1,1
+bonito,admiracion,palabra,1,1
+temo,preocupacion,palabra,1,1
+irresponsable,enojo,palabra,1,1
+chido,alegria,palabra,1,1
+desanimado,tristeza,palabra,1,1
+descuida,tranquilidad,palabra,1,1
+felicit,admiracion,raiz,1,0.8
+precarias,enojo,palabra,1,1
+tranquila,tranquilidad,palabra,1,1
+peligro,preocupacion,palabra,1,1
+joder,enojo,palabra,1,1
+solucionado,satisfaccion,palabra,1,1
+genio,admiracion,palabra,1,1
+enojo,enojo,palabra,1,1
+pucha,enojo,palabra,1,1
+estres,cansancio,raiz,1,0.8
+estres,cansancio,palabra,1,1
+relaj,tranquilidad,raiz,1,0.8
+estupido,enojo,palabra,1,1
+ridiculo,decepcion,palabra,1,1
+jalaron,decepcion,palabra,1,1
+lamentable,tristeza,palabra,1,1
+basura,enojo,palabra,1,1
+confio,esperanza,palabra,1,1
+frustracion,frustracion,palabra,1,1
+felicidades,admiracion,palabra,1,1
+jaja,decepcion,palabra+ironia,1,1
+carajo,enojo,palabra,1,1
+decepcion,decepcion,palabra,1,1
+graciass,gratitud,palabra,1,1
+encanta,alegria,palabra,1,1
+aprobe,decepcion,palabra+ironia,1,1
+chuta,frustracion,palabra,1,1
+chevere,alegria,palabra,1,1
+rudo,cansancio,palabra,1,1
+aburrido,cansancio,palabra,1,1
+linda,admiracion,palabra,1,1
+exitos,esperanza,palabra,1,1
+entendido,decepcion,palabra+ironia,1,1
+injust,enojo,raiz,1,0.8
+facilito,tranquilidad,palabra,1,1
+alerta,preocupacion,palabra,1,1
+impresionante,sorpresa,palabra,1,1
+angustia,preocupacion,palabra,1,1
+robo,enojo,palabra,1,1
+panico,preocupacion,palabra,1,1
+confundido,confusion,palabra,1,1.5
+relax,tranquilidad,palabra,1,1
+injusticia,enojo,palabra,1,1
+sorpresa,sorpresa,palabra,1,1
+☹,tristeza,emoji,1,1
+✌,tranquilidad,emoji,1,0.75
+✔,satisfaccion,emoji,1,0.75
+❔,confusion,emoji,1,0.75
+❤‍🔥,admiracion,emoji,1,1.25
+🌟,admiracion,emoji,1,0.75
+👎,enojo,emoji,1,0.75
+💜,admiracion,emoji,1,0.75
+🗿,decepcion,emoji,1,0.75
+😖,frustracion,emoji,1,1
+😝,alegria,emoji,1,0.75
+😟,preocupacion,emoji,1,1
+😦,sorpresa,emoji,1,0.75
+😩,cansancio,emoji,1,1
+😮,sorpresa,emoji,1,1
+😯,sorpresa,emoji,1,0.75
+😰,preocupacion,emoji,1,1
+😲,sorpresa,emoji,1,1
+😴,tranquilidad,emoji,1,2.25
+😾,enojo,emoji,1,1
+🙀,sorpresa,emoji,1,1
+🙁,tristeza,emoji,1,0.75
+🚀,esperanza,emoji,1,0.75
+🤝,gratitud,emoji,1,0.75
+🤠,alegria,emoji,1,0.75
+🤩,admiracion,emoji,1,1
+🤯,sorpresa,emoji,1,1
+🤷‍♀,confusion,emoji,1,1
+🥰,admiracion,emoji,1,1
+🥱,cansancio,emoji,1,1
+🫡,admiracion,emoji,1,0.75
+🫶,admiracion,emoji,1,1

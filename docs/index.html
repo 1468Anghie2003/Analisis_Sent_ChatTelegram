@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Análisis de Sentimientos · Curso de Temporada</title>
+<meta name="description" content="Análisis de sentimientos del grupo de Telegram del Curso de Temporada de la Carrera de Informática (UMSA), 2023-2026. Minería de Datos.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="carga" id="carga"><div>Análisis de Sentimientos</div></div>
+<div id="fondo"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div><div class="blob b4"></div></div>
+<div id="grano"></div>
+<div id="cur-dot"></div><div id="cur-ring"></div>
+
+<header class="top">
+  <div class="barra">
+    <div class="marca">Análisis de Sentimientos<b>MD · UMSA</b></div>
+    <div class="navwrap">
+      <button class="flecha" id="tabIzq" title="Desplazar pestañas a la izquierda">&#8249;</button>
+      <nav class="tabs" id="tabs">
+        <span class="burbuja" id="burbuja"></span>
+        <button class="tab on" data-tab="inicio" data-c="#FF6B3D" data-c2="#FFB547" data-d="Objetivos, indicadores y hallazgos"><i>01</i>Inicio</button>
+        <button class="tab" data-tab="hilo" data-c="#E0A100" data-c2="#FFD166" data-d="Las 11 fases y sus scripts"><i>02</i>Hilo del proyecto</button>
+        <button class="tab" data-tab="explorador" data-c="#16A34A" data-c2="#7BE495" data-d="Resumen de cualquier periodo"><i>03</i>Explorador temporal</button>
+        <button class="tab" data-tab="sentimientos" data-c="#9333EA" data-c2="#F0ABFC" data-d="Los 15 sentimientos de clase"><i>04</i>Sentimientos</button>
+        <button class="tab" data-tab="emojis" data-c="#E8A400" data-c2="#FB923C" data-d="Uso y significado de los emojis"><i>05</i>Emojis</button>
+        <button class="tab" data-tab="lenguaje" data-c="#0D9488" data-c2="#5EEAD4" data-d="Palabras, frases y nubes"><i>06</i>Lenguaje</button>
+        <button class="tab" data-tab="temas" data-c="#DB2777" data-c2="#FDA4AF" data-d="Tópicos LDA"><i>07</i>Temas</button>
+        <button class="tab" data-tab="comunidad" data-c="#2563EB" data-c2="#93C5FD" data-d="Miembros y perfiles"><i>08</i>Comunidad</button>
+        <button class="tab" data-tab="docentes" data-c="#E11D48" data-c2="#FDBA74" data-d="Entidades y relaciones"><i>09</i>Docentes y campus</button>
+        <button class="tab" data-tab="causas" data-c="#4D7C0F" data-c2="#BEF264" data-d="Patrones, causas y pronóstico"><i>10</i>Causas y predicción</button>
+        <button class="tab" data-tab="lab" data-c="#4F46E5" data-c2="#A5B4FC" data-d="Analizador y asistente"><i>11</i>Laboratorio</button>
+        <button class="tab" data-tab="bitacora" data-c="#475569" data-c2="#A3B3C7" data-d="Registro de cada paso"><i>12</i>Bitácora y datos</button>
+        <button class="tab" data-tab="diccionarios" data-c="#0891B2" data-c2="#67E8F9" data-d="Sentimientos, emojis y jerga"><i>13</i>Diccionarios</button>
+        <button class="tab" data-tab="resultados" data-c="#C2410C" data-c2="#FCD34D" data-d="Hallazgos, objetivos y equipo"><i>14</i>Resultados</button>
+      </nav>
+      <button class="flecha" id="tabDer" title="Desplazar pestañas a la derecha">&#8250;</button>
+      <button class="btn-menu" id="btnMenu" title="Ver todas las secciones"><i><b></b><b></b><b></b><b></b></i><span>Secciones</span></button>
+    </div>
+  </div>
+  <div class="menu-tabs" id="menuTabs"></div>
+</header>
+
+<!-- Filtro global de fechas (pestañas 03 a 10) -->
+<div class="filtro" id="filtro">
+  <div class="fila-f" id="filaA">
+    <span class="etq-p" id="etqA">Periodo</span>
+    <div class="modos" data-p="A"></div>
+    <div class="valor-f" id="valA"></div>
+    <span class="rango-activo" id="resA"></span>
+    <div class="acciones-f">
+      <button class="chip" id="btnComparar">Comparar con otro periodo</button>
+      <button class="chip" id="btnRestablecer">Restablecer</button>
+      <button class="chip" id="btnAyudaF">¿Cómo funciona?</button>
+    </div>
+  </div>
+  <div class="fila-f b" id="filaB">
+    <span class="etq-p">Periodo B</span>
+    <div class="modos" data-p="B"></div>
+    <div class="valor-f" id="valB"></div>
+    <span class="rango-activo" id="resB"></span>
+  </div>
+  <div class="ayuda-f" id="ayudaF">
+    <b>Un solo periodo:</b> se elige primero el tipo (año, semestre, periodo académico, mes, semana, día o rango libre) y luego su valor; al cambiar de tipo, la selección anterior se descarta. El periodo elegido se aplica a todas las pestañas de la 03 a la 10.
+    <b>Comparación:</b> el botón "Comparar con otro periodo" agrega un Periodo B con las mismas opciones. Cada pestaña de la 03 a la 10 muestra entonces, arriba, un panel "Periodo A frente a Periodo B" con las cifras de ambos y sus diferencias; los gráficos de debajo del panel corresponden al Periodo A (en Sentimientos, los gráficos principales muestran los dos). "Restablecer" vuelve a todo el periodo y quita la comparación.
+  </div>
+</div>
+
+<main>
+<!-- 01 INICIO -->
+<section class="vista on" id="v-inicio">
+  <div class="hero">
+    <div>
+      <div class="pill" style="display:inline-block">Minería de Datos · Carrera de Informática · UMSA</div>
+      <h1>Análisis de <span>Sentimientos</span></h1>
+      <p class="lead" id="heroLead"></p>
+      <div class="meta" id="heroMeta"></div>
+    </div>
+    <div class="card objetivos" id="objetivos"></div>
+  </div>
+  <div class="grid" id="kpis" style="margin-top:14px"></div>
+  <div class="cab"><div class="kicker">Hallazgos</div><h2>Hallazgos principales</h2>
+    <p>Tarjetas redactadas automáticamente con las cifras del pipeline en R; si cambia el dataset, los valores y los textos se actualizan.</p></div>
+  <div class="grid" id="curiosos"></div>
+  <div class="grid" style="margin-top:16px">
+    <div class="card c8"><h3>Actividad semanal del grupo</h3><p class="sub">Mensajes por semana; el color de cada punto indica el sentimiento predominante. Al hacer clic en un punto se abre esa semana en el Explorador temporal.</p><div class="chart" id="chInicioLinea"></div></div>
+    <div class="card c4"><h3>Cobertura por año</h3><p class="sub">Primera y última fecha con registros en cada año.</p><div id="cobertura"></div></div>
+  </div>
+</section>
+
+<!-- 02 HILO -->
+<section class="vista" id="v-hilo">
+  <div class="cab"><div class="kicker">Reproducibilidad</div><h2>Hilo del proyecto</h2>
+    <p>Las 11 fases en el orden en que se ejecutan. Cada fase presenta su objetivo, el tema de clase que aplica, los métodos y su justificación, los pasos registrados en la bitácora, sus figuras y su script principal comentado sección por sección. Para abrir una fase, hacer clic sobre ella.</p></div>
+  <div class="hilo" id="hilo"></div>
+  <div class="card" style="margin-top:16px"><h3>Scripts de apoyo</h3><p class="sub">Configuración, diccionario de sentimientos, motor de puntuación, ejecución completa y generación del dashboard.</p>
+    <div class="sugs" id="scriptsApoyo"></div><div id="visorApoyo" style="margin-top:12px"></div></div>
+</section>
+
+<!-- 03 EXPLORADOR -->
+<section class="vista" id="v-explorador">
+  <div class="cab"><div class="kicker">Segmentación por fechas</div><h2>Explorador temporal</h2>
+    <p>Resumen completo del periodo elegido en la barra superior: actividad, sentimientos, emojis, palabras, temas y mensajes destacados. También se puede acotar el periodo arrastrando la barra inferior de la línea de tiempo.</p></div>
+  <div class="card cmp-panel" id="cmp-explorador"></div>
+  <div class="grid" id="kpisRango"></div>
+  <div class="grid" style="margin-top:16px">
+    <div class="card c12"><h3>Línea de tiempo del periodo</h3><p class="sub">Mensajes por <select class="sel" id="selGran"><option value="auto">granularidad automática</option><option value="dia">día</option><option value="semana">semana</option><option value="mes">mes</option></select> e índice de ánimo. Arrastrar los extremos de la barra inferior acota y aplica ese rango.</p><div class="chart alto" id="chTimeline"></div></div>
+    <div class="card c6"><h3>Sentimientos del periodo</h3><p class="sub">Porcentaje de cada sentimiento entre los mensajes con sentimiento.</p><div class="chart alto" id="chExpSent"></div></div>
+    <div class="card c6"><h3>Emojis más usados del periodo</h3><p class="sub">Texto, stickers y reacciones; el color indica el sentimiento asociado.</p><div class="emo-grid" id="expEmojis"></div></div>
+    <div class="card c6"><h3>Nube de palabras del periodo</h3><p class="sub">Tamaño = frecuencia; color = sentimiento más asociado a la palabra.</p><div class="chart alto" id="chExpNube"></div></div>
+    <div class="card c6"><h3>Nube de emojis del periodo</h3><p class="sub">Tamaño proporcional a las veces que se usó cada emoji (texto y reacciones).</p><div class="nube-emo" id="expNubeEmo"></div></div>
+    <div class="card c7"><h3>Calendario</h3><p class="sub">Periodos cortos: cada celda es un día. Periodos largos: cada celda es una semana y cada fila un año. El color es la cantidad de mensajes.</p><div class="chart" id="chCalendario"></div></div>
+    <div class="card c5"><h3>Hora y día de la semana</h3><p class="sub">Mensajes del periodo por hora y día.</p><div class="chart" id="chHoraDia"></div></div>
+    <div class="card c4"><h3>Temas del periodo</h3><p class="sub">Tópico LDA dominante de los mensajes.</p><div class="chart" id="chExpTemas"></div></div>
+    <div class="card c8"><h3>Mensajes con más reacciones</h3><p class="sub">Los mensajes del periodo que más reacciones recibieron (datos personales ocultos).</p><div class="msgs destacados" id="expDestacados" style="max-height:340px"></div></div>
+    <div class="card c6"><h3>Días con más conversación</h3><p class="sub">Los 8 días más activos del periodo, con su sentimiento dominante y sus palabras distintivas. Al hacer clic en un día se filtra ese día.</p><div id="diasTop"></div></div>
+    <div class="card c6"><h3>Palabras distintivas del periodo</h3><p class="sub">Palabras que aparecen en el periodo mucho más que en el resto del chat (log-odds ponderado).</p><div class="chart" id="chDistintivas"></div></div>
+  </div>
+</section>
+
+<!-- 04 SENTIMIENTOS -->
+<section class="vista" id="v-sentimientos">
+  <div class="cab"><div class="kicker">Los 15 sentimientos de clase</div><h2>Sentimientos</h2>
+    <p>Porcentajes calculados sobre los mensajes con sentimiento del periodo elegido. Con la comparación activa, los gráficos principales muestran los dos periodos.</p></div>
+  <div class="card cmp-panel" id="cmp-sentimientos"></div>
+  <div class="grid">
+    <div class="card c7"><h3>Distribución de los 15 sentimientos</h3><p class="sub" id="subSent"></p><div class="chart alto" id="chSent15"></div></div>
+    <div class="card c5"><h3>Balance de polaridad</h3><p class="sub">Positivo, neutro y negativo; el índice de ánimo va de -1 a +1.</p><div class="chart" id="chPolaridad"></div><div class="nota" id="notaAnimo"></div></div>
+    <div class="card c12"><h3>Evolución de los sentimientos</h3><p class="sub">Composición en el tiempo (área apilada al 100%). Al hacer clic en la leyenda se muestra u oculta cada sentimiento.</p><div class="chart alto" id="chSentTiempo"></div></div>
+    <div class="card c6"><h3>Perfil de sentimientos (radar)</h3><p class="sub" id="subRadar"></p><div class="chart alto" id="chRadar"></div></div>
+    <div class="card c6"><h3>Sentimientos por hora del día</h3><p class="sub">Proporción de los mensajes de cada sentimiento según la hora.</p><div class="chart alto" id="chSentHora"></div></div>
+    <div class="card c6"><h3>Termómetro de ánimo</h3><p class="sub">Índice (positivos − negativos) / (positivos + negativos), suavizado.</p><div class="chart" id="chAnimo"></div></div>
+    <div class="card c6"><h3>Mensajes de ejemplo</h3><p class="sub">Al elegir un sentimiento se muestran ejemplos del periodo (datos personales ocultos).</p><div class="leyenda-s" id="pickSent"></div><div class="msgs" id="msgsSent" style="margin-top:10px"></div></div>
+    <div class="card c6"><h3>Presencia de risa según polaridad</h3><p class="sub">Porcentaje de mensajes con marcadores de risa (jaja, xd o emojis de risa) en cada polaridad.</p><div class="chart bajo" id="chRisa"></div></div>
+    <div class="card c6"><h3>Reacciones promedio por sentimiento</h3><p class="sub">Reacciones recibidas por mensaje según su sentimiento dominante.</p><div class="chart bajo" id="chSentReac"></div></div>
+  </div>
+</section>
+
+<!-- 05 EMOJIS -->
+<section class="vista" id="v-emojis">
+  <div class="cab"><div class="kicker">Diccionario de emojis</div><h2>Emojis</h2>
+    <p>Imágenes 3D de Fluent Emoji (Microsoft, licencia MIT), que se ven igual en cualquier dispositivo. El diseño de Apple no tiene licencia de uso libre; por eso se eligió este conjunto abierto de estilo similar.</p></div>
+  <div class="card cmp-panel" id="cmp-emojis"></div>
+  <div class="grid">
+    <div class="card c12"><h3>Emojis más usados del periodo</h3><p class="sub">Al pasar el cursor se muestra su significado en el chat; el color de la etiqueta es su sentimiento. <span class="sugs" style="display:inline-flex;margin:0 0 0 8px" id="emoFuente"></span></p><div class="emo-grid" id="emoGrid"></div></div>
+    <div class="card c7"><h3>Nube de emojis</h3><p class="sub">Tamaño proporcional al uso en el periodo, según la fuente elegida arriba.</p><div class="nube-emo" id="nubeEmo" style="height:460px"></div></div>
+    <div class="card c5"><h3>Reacciones</h3><p class="sub">Emojis usados como reacción en el periodo.</p><div class="chart alto" id="chReacciones"></div></div>
+    <div class="card c6"><h3>Familias de emojis por significado</h3><p class="sub">Emojis distintos que en el chat expresan lo mismo, con sus usos en el periodo.</p><div id="familias"></div></div>
+    <div class="card c6"><h3>Emoji y sentimiento</h3><p class="sub">Flujo de los usos de cada emoji hacia el sentimiento que expresa.</p><div class="chart xalto" id="chSankey"></div></div>
+    <div class="card c12"><h3>Emoji predominante de cada mes</h3><p class="sub">El emoji con sentimiento más usado en cada mes del periodo.</p><div class="chart" id="chEmojiMes"></div></div>
+    <div class="card c12"><h3>Comparador de dos emojis</h3><p class="sub">Herramienta independiente de la comparación de periodos: compara dos emojis entre sí (significado, familia y uso en el tiempo) dentro del Periodo A.</p>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px"><select class="sel" id="emoA"></select><select class="sel" id="emoB"></select></div>
+      <div class="dos"><div id="emoFichaA"></div><div id="emoFichaB"></div></div><div class="chart" id="chEmoComp"></div></div>
+  </div>
+</section>
+
+<!-- 06 LENGUAJE -->
+<section class="vista" id="v-lenguaje">
+  <div class="cab"><div class="kicker">Tokenización, n-gramas y TF-IDF</div><h2>Lenguaje</h2>
+    <p>Palabras con contenido (sin palabras vacías), frases (bigramas y trigramas), expresiones con significado y nubes de palabras del periodo elegido.</p></div>
+  <div class="card cmp-panel" id="cmp-lenguaje"></div>
+  <div class="grid">
+    <div class="card c4"><h3>Palabras más usadas</h3><div class="chart xalto" id="chPalabras"></div></div>
+    <div class="card c4"><h3>Frases de dos palabras</h3><div class="chart xalto" id="chBigramas"></div></div>
+    <div class="card c4"><h3>Frases de tres palabras</h3><div class="chart xalto" id="chTrigramas"></div></div>
+    <div class="card c7"><h3>Nube de palabras</h3><p class="sub">Tamaño = frecuencia en el periodo; color = sentimiento más asociado a la palabra.</p><div class="chart alto" id="chNube"></div></div>
+    <div class="card c5"><h3>Caracteres y expresiones con significado</h3><p class="sub">xd, XD, :v, x2, ??, jaja... y su significado.</p><div class="tabla-wrap" style="max-height:440px" id="tablaExpr"></div></div>
+    <div class="card c6"><h3>Nube de frases</h3><p class="sub">Bigramas y trigramas más frecuentes del periodo: muestran lo que se pide, se pregunta o se comenta.</p><div class="chart alto" id="chNubeFrases"></div></div>
+    <div class="card c6"><h3>Nube por sentimiento</h3><p class="sub">Palabras características del sentimiento elegido (log-odds frente al resto de mensajes).</p><div class="leyenda-s" id="pickSentNube"></div><div class="chart" id="chNubeSent" style="height:400px"></div></div>
+    <div class="card c12"><h3>Palabras características por sentimiento</h3><p class="sub">Palabras que aparecen en los mensajes de cada sentimiento mucho más que en el resto (log-odds ponderado); al pasar el cursor se muestra la frecuencia.</p><div class="leyenda-s" id="pickSentPal"></div><div class="chart" id="chPalSent"></div></div>
+  </div>
+</section>
+
+<!-- 07 TEMAS -->
+<section class="vista" id="v-temas">
+  <div class="cab"><div class="kicker">Modelado de tópicos (LDA)</div><h2>Temas</h2>
+    <p>Tópicos aprendidos por LDA con días de conversación como documentos; cada mensaje recibe su tópico dominante y aquí se cuentan dentro del periodo elegido.</p></div>
+  <div class="card cmp-panel" id="cmp-temas"></div>
+  <div class="grid">
+    <div class="card c12"><h3>Tópicos y sus palabras</h3><p class="sub" id="subTopicos"></p><div class="grid" id="topicosCards"></div></div>
+    <div class="card c5"><h3>Peso de cada tópico en el periodo</h3><div class="chart" id="chTopDist"></div></div>
+    <div class="card c7"><h3>Tópicos en el tiempo</h3><div class="chart" id="chTopTiempo"></div></div>
+    <div class="card c12"><h3>Sentimientos dentro de cada tópico</h3><p class="sub">Proporción de cada sentimiento dentro de los mensajes de cada tópico (periodo elegido).</p><div class="chart alto" id="chTopSent"></div></div>
+  </div>
+</section>
+
+<!-- 08 COMUNIDAD -->
+<section class="vista" id="v-comunidad">
+  <div class="cab"><div class="kicker">Personas (anonimizadas)</div><h2>Comunidad</h2>
+    <p>Participación, perfiles individuales, red de respuestas y mejor hora para preguntar. Los nombres se reemplazan por "Miembro 0001", "Miembro 0002"... (0001 = el miembro más activo de todo el chat). La correspondencia entre alias y nombre se conserva solo para uso interno en 05_Bitacora/privado y no se publica.</p></div>
+  <div class="card cmp-panel" id="cmp-comunidad"></div>
+  <div class="grid">
+    <div class="card c5"><h3>Miembros con más mensajes</h3><p class="sub">Al hacer clic en una barra se abre el perfil de ese miembro.</p><div class="chart xalto" id="chAutores"></div></div>
+    <div class="card c7" id="cardPerfil"><h3>Perfil del miembro</h3><p class="sub">Miembro: <select class="sel" id="selMiembro"></select> <span id="subPerfil"></span></p>
+      <div id="perfilCab"></div>
+      <div class="dos"><div class="chart" id="chPerfil"></div><div class="chart" id="chPerfilHoras"></div></div></div>
+    <div class="card c6"><h3>Palabras y emojis del miembro</h3><p class="sub" id="subPerfilPal"></p><div class="chart" id="chPerfilPal" style="height:300px"></div><div class="emo-fila" id="perfilEmo"></div></div>
+    <div class="card c6"><h3>Mensajes del miembro</h3><p class="sub">Ejemplos del periodo (datos personales ocultos).</p><div class="msgs" id="perfilMsgs" style="max-height:380px"></div></div>
+    <div class="card c7"><h3>Mejor hora para preguntar</h3><p class="sub">Preguntas del periodo que recibieron respuesta explícita y minutos hasta la primera respuesta.</p><div class="chart" id="chMejorHora"></div></div>
+    <div class="card c5"><h3>Concentración de la participación</h3><p class="sub">Parte de los mensajes del periodo que escribe el 1%, 5%, 10% y 25% de miembros más activos.</p><div class="chart" id="chConcentra"></div></div>
+    <div class="card c12"><h3>Red de respuestas entre miembros</h3><p class="sub">Quién responde a quién (todo el periodo de datos). Tamaño = respuestas dadas; color = comunidad detectada con Louvain. Los nodos se pueden arrastrar.</p><div class="chart xalto" id="chRed"></div></div>
+  </div>
+</section>
+
+<!-- 09 DOCENTES -->
+<section class="vista" id="v-docentes">
+  <div class="cab"><div class="kicker">NER y relaciones</div><h2>Docentes y campus</h2>
+    <p>Docentes, materias, lugares, horarios y trámites reconocidos en el texto. La percepción de un docente es lo que el chat expresa al mencionarlo, no una evaluación docente.</p></div>
+  <div class="card cmp-panel" id="cmp-docentes"></div>
+  <div class="grid">
+    <div class="card c7"><h3>Percepción de docentes en el periodo</h3><p class="sub">Índice (positivos + 1) / (positivos + negativos + 2); mínimo de menciones: <select class="sel" id="minDoc"><option>5</option><option selected>10</option><option>20</option><option>40</option></select></p><div class="chart xalto" id="chDocentes"></div></div>
+    <div class="card c5"><h3>Sentimientos asociados al docente</h3><p class="sub"><select class="sel" id="selDoc"></select></p><div class="chart bajo" id="chDocSent"></div><div class="msgs" id="msgsDoc" style="max-height:300px;margin-top:8px"></div></div>
+    <div class="card c6"><h3>Materias más discutidas</h3><div class="chart alto" id="chMaterias"></div></div>
+    <div class="card c6"><h3>Lugares del campus</h3><p class="sub">Menciones y proporción de mensajes negativos.</p><div class="chart alto" id="chLugares"></div></div>
+    <div class="card c6"><h3>Horarios mencionados</h3><div class="chart" id="chHorarios"></div></div>
+    <div class="card c6"><h3>Trámites y plataformas</h3><div class="chart" id="chTramites"></div></div>
+    <div class="card c12"><h3>Relación docente-materia</h3><p class="sub">Relaciones extraídas por coocurrencia en un mismo mensaje (todo el periodo de datos).</p><div class="chart xalto" id="chRedDM"></div></div>
+  </div>
+</section>
+
+<!-- 10 CAUSAS -->
+<section class="vista" id="v-causas">
+  <div class="cab"><div class="kicker">Patrones no evidentes</div><h2>Causas y predicción</h2>
+    <p>Factores asociados a cada sentimiento, causas y efectos de la incertidumbre, pronóstico de la actividad y desempeño de los modelos supervisados.</p></div>
+  <div class="card cmp-panel" id="cmp-causas"></div>
+  <div class="grid">
+    <div class="card c6"><h3>Causas de la incertidumbre en el periodo</h3><p class="sub">Palabras sobrerrepresentadas en mensajes de confusión y preocupación (excluidas las del diccionario).</p><div class="chart alto" id="chCausas"></div></div>
+    <div class="card c6"><h3>Disparadores de cada sentimiento</h3><p class="sub">Reglas de asociación (Apriori) {palabras} ⇒ sentimiento, ordenadas por lift. <select class="sel" id="selRegla"></select></p><div class="tabla-wrap" style="max-height:420px" id="tablaReglas"></div></div>
+    <div class="card c6"><h3>Efecto en el tiempo</h3><p class="sub" id="subCcf"></p><div class="chart" id="chCcf"></div></div>
+    <div class="card c6"><h3>Sentimiento de las respuestas a la incertidumbre</h3><p class="sub">Sentimiento de las respuestas a mensajes de incertidumbre frente a las respuestas al resto.</p><div class="chart" id="chEfecto"></div></div>
+    <div class="card c8"><h3>Pronóstico de actividad</h3><p class="sub" id="subPron"></p><div class="chart alto" id="chPronostico"></div></div>
+    <div class="card c4"><h3>Comparación de modelos</h3><p class="sub">Error absoluto medio en 26 semanas de prueba.</p><div class="chart alto" id="chModelos"></div></div>
+    <div class="card c6"><h3>Clasificador entrenado sin el diccionario</h3><p class="sub">Validación cruzada de 5 pliegues (F1 macro).</p><div class="chart" id="chCv"></div></div>
+    <div class="card c6"><h3>Palabras nuevas asociadas a cada polaridad</h3><p class="sub">Candidatas para ampliar el diccionario (coeficientes LASSO).</p><div class="chart" id="chNuevas"></div></div>
+    <div class="card c12"><h3>Factores asociados a recibir respuesta</h3><p class="sub" id="subOdds"></p><div class="chart" id="chOdds"></div></div>
+  </div>
+</section>
+
+<!-- 11 LABORATORIO -->
+<section class="vista" id="v-lab">
+  <div class="cab"><div class="kicker">Interactivo</div><h2>Laboratorio</h2>
+    <p>El analizador aplica a cualquier mensaje escrito el mismo motor de sentimientos del pipeline en R, replicado en el navegador. El asistente responde consultas sobre el chat para cualquier fecha.</p></div>
+  <div class="grid">
+    <div class="card c6"><h3>Analizador en vivo</h3><p class="sub">Frases, palabras, raíces, emojis, negación, intensificadores e ironía, más la probabilidad del clasificador Naive Bayes.</p>
+      <textarea class="analiza" id="txtAnaliza">no puedo inscribirme, otra vez se cayó el sistema 😭 pero gracias por la info bro xd</textarea>
+      <div class="sugs" id="ejemplosLab"></div>
+      <div class="resaltado" id="resaltado" style="margin-top:10px"></div>
+      <div class="chart" id="chAnaliza"></div><div class="nota" id="notaAnaliza"></div></div>
+    <div class="card c6"><h3>Asistente del chat</h3><p class="sub">Asistente basado en reglas (como el chatbot de clase): tokeniza la consulta, detecta la intención y las fechas, y responde con los datos. Si falta información, propone consultas tentativas.</p>
+      <div class="chat" id="chat"></div>
+      <div class="entrada"><input id="pregunta" placeholder="Ej.: ¿qué sentimiento predominó en invierno 2025?"><button class="btn acc" id="btnPreguntar">Preguntar</button></div></div>
+    <div class="card c12"><h3>Consultas que puede responder el asistente</h3><p class="sub">Cada tarjeta es una intención reconocida, con sus palabras clave y un ejemplo que se puede enviar con un clic. Las fechas se pueden indicar como año (2025), mes y año (julio 2025), periodo (invierno 2025, semestre II 2024), semana (semana del 30/06/2025), día (15/08/2025) o rango (del 01/07/2025 al 15/07/2025).</p><div class="capac" id="capacidades"></div></div>
+  </div>
+</section>
+
+<!-- 12 BITÁCORA -->
+<section class="vista" id="v-bitacora">
+  <div class="cab"><div class="kicker">Registro de cada paso</div><h2>Bitácora y datos</h2>
+    <p>Cada paso del pipeline queda en <span class="mono">05_Bitacora/bitacora.csv</span> y en el Excel <span class="mono">Bitacora_GrupoXDMSent.xlsx</span> (hojas: portada, resumen por fase, bitácora detallada, corridas, datasets, diccionario de columnas, índice de figuras, hallazgos y archivos). Cada figura también queda registrada con su número.</p></div>
+  <div class="grid">
+    <div class="card c12"><h3>Dataset sucio y dataset limpio</h3><div class="grid" id="datasets"></div></div>
+    <div class="card c12"><h3>Bitácora detallada</h3><p class="sub">Filtro por fase y búsqueda por cualquier palabra. Los ID coinciden con el Excel.</p>
+      <div class="sugs" id="filtroFaseBit"></div><input class="buscar" id="buscarBit" placeholder="Buscar en la bitácora..."><div class="tabla-wrap" id="tablaBit"></div></div>
+    <div class="card c6"><h3>Corridas del pipeline</h3><p class="sub">Cada ejecución completa de EJECUTAR_TODO.R con su duración por fase (segundos).</p><div class="tabla-wrap" id="tablaCorr"></div></div>
+    <div class="card c6"><h3>Índice de figuras</h3><p class="sub">Numeración Fxx-nn idéntica en carpetas, informe y dashboard. Al hacer clic se amplía la figura.</p><input class="buscar" id="buscarFig" placeholder="Buscar figura..."><div class="tabla-wrap" id="tablaFig" style="max-height:420px"></div></div>
+  </div>
+</section>
+
+<!-- 13 DICCIONARIOS -->
+<section class="vista" id="v-diccionarios">
+  <div class="cab"><div class="kicker">Léxicos del proyecto</div><h2>Diccionarios</h2>
+    <p>Los 15 sentimientos con su definición y términos (de clase y ampliados), el diccionario de emojis y el de jerga. También en <span class="mono">03_Diccionarios/Diccionario_GrupoXDMSent.xlsx</span>.</p></div>
+  <div class="grid">
+    <div class="card c12"><h3>Los 15 sentimientos</h3><div class="grid" id="sent15"></div></div>
+    <div class="card c7"><h3>Términos del diccionario</h3><div class="leyenda-s" id="pickSentDic"></div><input class="buscar" id="buscarDic" placeholder="Buscar término..." style="margin-top:10px"><div class="tabla-wrap" id="tablaDic"></div></div>
+    <div class="card c5"><h3>Diccionario de emojis</h3><input class="buscar" id="buscarEmo" placeholder="Buscar emoji o significado..."><div class="tabla-wrap" id="tablaEmo"></div></div>
+  </div>
+</section>
+
+<!-- 14 RESULTADOS -->
+<section class="vista" id="v-resultados">
+  <div class="cab"><div class="kicker">Síntesis</div><h2>Resultados</h2>
+    <p>Hallazgos principales, cumplimiento de cada objetivo y equipo de trabajo.</p></div>
+  <div class="grid" id="hallazgosRes"></div>
+  <div class="card" style="margin-top:16px"><h3>Objetivos y su cumplimiento</h3><div class="tabla-wrap" id="tablaObj"></div></div>
+  <div class="cab"><div class="kicker">Trabajo de grupo</div><h2>Equipo</h2></div>
+  <div class="equipo" id="equipo"></div>
+</section>
+</main>
+
+<div id="lightbox"><div class="lb"><img id="lbImg" alt=""><div class="cap" id="lbCap"></div><div class="nav"><span class="cont" id="lbCont"></span><button class="btn" id="lbPrev">Anterior</button><button class="btn" id="lbNext">Siguiente</button><button class="btn acc" id="lbCerrar">Cerrar</button></div></div></div>
+
+<footer id="pie"></footer>
+
+<script src="assets/lib/echarts.min.js"></script>
+<script src="assets/lib/echarts-wordcloud.min.js"></script>
+<script src="assets/lib/prism-core.min.js"></script>
+<script src="assets/lib/prism-r.min.js"></script>
+<script src="data/datos.js"></script>
+<script src="data/mensajes.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

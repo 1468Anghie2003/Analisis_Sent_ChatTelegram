@@ -1,0 +1,67 @@
+﻿expresion,patron,tipo,significado,sentimiento,normaliza_a,mensajes,apariciones
+lic / lice,(?i)(?<![\p{L}])(lic|lice|licen)(?![\p{L}]),glosario universitario,licenciado/a: forma habitual de llamar al docente,"",lic,1538,1613
+??,"\?{2,}",puntuación expresiva,insistencia: urge una respuesta o no se entiende algo,confusion,"",990,1030
+x2,(?i)(?<![\p{L}\d])x2(?![\p{L}\d]),adhesión / internet,'yo también / lo mismo': se suma al pedido o a la queja anterior,"","",658,658
+porfa,(?i)(?<![\p{L}])(porfa+s?|porfis|porfavor|xfa+|x\s?fa|xfavor|plis|pls|plz|pf)(?![\p{L}]),abreviatura / petición,por favor: pedido de ayuda,"",por favor,479,485
+...,"\.{3,}|…",puntuación expresiva,"pausa, duda o resignación","","",438,470
+adición y retiro,(?i)adici[oó]n (y|o) retiro|retiro (y|o) adici[oó]n,glosario universitario,periodo para agregar o retirar materias,"","",364,370
+habilitar materia,(?i)habilit(ar|en|emos|aron|o|ó|a|ara|ará)\b,glosario universitario,abrir una materia en temporada (se necesita un mínimo de inscritos),"","",348,354
+q,(?i)(?<![\p{L}])q(?![\p{L}]),abreviatura,que,"",que,338,394
+kardex,(?i)(?<![\p{L}])k[aá]rdex(?![\p{L}]),glosario universitario,oficina de registros académicos de la carrera,"",kardex,333,340
+CPT,(?i)(?<![\p{L}])cpt(?![\p{L}]),glosario universitario,Código de Pago de Trámite: se genera para pagar la materia de temporada,"","",217,224
+SSA,(?i)(?<![\p{L}])ssa(?![\p{L}]),glosario universitario,Sistema de Seguimiento Académico de la UMSA (inscripciones en línea),"","",189,189
+xd,(?<![\p{L}\d])xd+(?![\p{L}\d]),risa / internet,"carita riendo con ojos cerrados (x) y boca abierta (d); risa ligera, broma",alegria,"",144,145
+nomás,(?i)(?<![\p{L}])nom[aá]s(?![\p{L}]),bolivianismo,'no más': atenúa un pedido ('pasa nomás') o significa 'solamente',"",nomas,139,141
+:v,:+v(?![\p{L}]),emoticón / internet,"'pacman': humor, ironía o sarcasmo latinoamericano de internet",alegria,"",111,111
+bro,(?i)(?<![\p{L}])bro+(s)?(?![\p{L}]),vocativo juvenil,hermano/amigo (trato de confianza),"","",101,102
+pues / ps,(?i)(?<![\p{L}])(ps|pss|pues|pue)(?![\p{L}]),muletilla,muletilla de énfasis ('ya pues'),"",pues,91,93
+jaja,(?i)(?<![\p{L}])j+a+(j+a*)+j*(?![\p{L}])|(?i)(?<![\p{L}])a?ja(ja)+j?(?![\p{L}]),risa,risa escrita,alegria,jaja,84,85
+full / re / harto,(?i)(?<![\p{L}])(full|re|harto|bien|super|súper|muy)(?= (dif[ií]cil|f[aá]cil|bueno|buena|malo|mala|pesad|exigente|complicad|accesible|tranquil|estricto)),intensificador,intensifica lo que sigue ('full difícil' = 'muy difícil'),"","",78,78
+ok,(?i)(?<![\p{L}])(ok|oki|okey|okay|oka|okis|okii)(?![\p{L}]),abreviatura,"de acuerdo, entendido",tranquilidad,ok,78,78
+XD,(?<![\p{L}\d])XD+(?![\p{L}\d]),risa / internet,la misma carita en mayúsculas: risa más fuerte,alegria,"",71,71
+:(,:-?\(+,emoticón,carita triste,tristeza,"",68,69
+!!,"!{2,}",puntuación expresiva,énfasis o exaltación,"","",59,61
+xq,(?i)(?<![\p{L}])(xq|pq|xk|pk|porq)(?![\p{L}]),abreviatura,porque / por qué,"",porque,59,61
+choque,(?i)(?<![\p{L}])choque(s)? de horario,glosario universitario,dos materias en el mismo horario,"","",49,49
+progra,(?i)(?<![\p{L}])progra(?![\p{L}]),glosario universitario,materia de Programación,"",programacion,43,45
+:'v,":['´,]+v(?![\p{L}])",emoticón / internet,pacman llorando: tristeza en tono de broma,tristeza,"",32,32
+info,(?i)(?<![\p{L}])info(?![\p{L}]),abreviatura,información,"",informacion,29,29
+xD,(?<![\p{L}\d])xD+(?![\p{L}\d]),risa / internet,variante mixta de xd: risa,alegria,"",27,27
+:),:-?\)+,emoticón,carita feliz,alegria,"",25,25
+:D,:-?D+(?![\p{L}]),emoticón,carita muy feliz,alegria,"",25,25
+sabe ser,(?i)(?<![\p{L}])sabe(n|s)? (ser|haber|pasar|dar|tomar|tardar|cerrar)(?![\p{L}]),bolivianismo,construcción boliviana para algo habitual ('sabe ser' = 'suele ser'),"","",20,22
+k,(?i)(?<![\p{L}])k(?![\p{L}']),abreviatura,que,"",que,19,22
+uff,"(?i)(?<![\p{L}])u+f{2,}(?![\p{L}])",interjección,"alivio, cansancio o sorpresa según el contexto",sorpresa,"",19,19
+jeje,(?i)(?<![\p{L}])je(je)+j?(?![\p{L}]),risa,risa pícara o tímida,alegria,jaja,18,18
+toca esperar,(?i)(?<![\p{L}])toca esperar(?![\p{L}]),expresión,resignación ante la espera,frustracion,"",15,15
+jsjs,(?i)(?<![\p{L}])js(js)+j?(?![\p{L}]),risa,risa juvenil (teclado rápido),alegria,jaja,14,14
+chale,(?i)(?<![\p{L}])chale(s)?(?![\p{L}]),internet,"fastidio, decepción ('¡chale!')",frustracion,"",13,13
+ni modo,(?i)(?<![\p{L}])ni ?modo(?![\p{L}]),expresión,resignación: no queda otra,frustracion,"",12,12
+¿?,¿\s*\?,puntuación expresiva,pregunta vacía: no se entiende,confusion,"",12,14
+:c,(?<![\p{L}]):c(?![\p{L}]),emoticón,carita triste (boca hacia abajo),tristeza,"",11,11
+F,^\s*[Ff]+\s*[.!]*\s*$,internet,'press F': un mensaje que solo dice F; lamentar en broma una situación,tristeza,"",11,11
+gg,(?i)(?<![\p{L}])gg(?![\p{L}]),internet / gamer,"'good game': se acabó, se perdió",decepcion,"",10,10
+prefa,(?i)(?<![\p{L}])prefa(s|cultativo)?(?![\p{L}]),glosario universitario,curso prefacultativo (ingreso a la carrera),"",prefacultativo,8,8
+haha,(?i)(?<![\p{L}])ha(ha)+h?(?![\p{L}]),risa,risa (anglicismo),alegria,jaja,7,8
+vale,"(?i)(?<![\p{L}])vale(?=\s*[,.!]|$)",expresión,de acuerdo,tranquilidad,"",7,7
+auxi,(?i)(?<![\p{L}])auxi(s)?(?![\p{L}]),glosario universitario,auxiliar o auxiliatura (clase de práctica),"",auxiliar,6,7
+ya fue,(?i)(?<![\p{L}])ya fue(?![\p{L}]),expresión juvenil,"resignación: se perdió, no hay vuelta",frustracion,"",6,6
+T_T,T[_.]T,emoticón,ojos llorando,tristeza,"",5,5
+jalar / me tiró,(?i)(?<![\p{L}])(jal[oóeé]|jalaron|jalan|jalado|me tir[oó]|te tira|nos tir[oó]|me plaz[oó]|aplaz),jerga universitaria,reprobar ('me jaló' = 'me reprobó'),decepcion,"",5,6
+alv,(?i)(?<![\p{L}])alv(?![\p{L}]),internet,expresión vulgar de enojo o sorpresa,enojo,"",3,3
+mano / manito,"(?i)(?<![\p{L}])(manito|manita|mano)(?=\s*[,.!?])",vocativo juvenil,hermano/amigo,"","",3,3
+nmms,(?i)(?<![\p{L}])nmms(?![\p{L}]),internet,'no mames': incredulidad o enojo,sorpresa,"",3,3
+tmb,(?i)(?<![\p{L}])(tmb|tb|tbn|tambn)(?![\p{L}]),abreviatura,también,"",tambien,3,3
+wey,(?i)(?<![\p{L}])(wey|güey|guey)(?![\p{L}]),vocativo juvenil,amigo (mexicanismo de internet),"","",3,3
+<3,<3,emoticón,corazón,admiracion,"",2,2
+ojo,"(?i)(?<![\p{L}])ojo(?=\s*[,:!.]|\s+con)",expresión,"¡atención!, advertencia",preocupacion,"",2,2
+u.u,(?i)(?<![\p{L}])u[._]u(?![\p{L}]),emoticón,"resignación, tristeza leve",tristeza,"",2,2
+uwu,(?i)(?<![\p{L}])uwu(?![\p{L}]),emoticón / internet,ternura,alegria,"",2,2
+causa,"(?i)(?<![\p{L}])causa(?![\p{L}])(?=\s*[,.!?]|$)",vocativo juvenil,amigo (peruanismo usado en redes),"","",1,1
+chuta,(?i)(?<![\p{L}])chuta(s)?(?![\p{L}]),bolivianismo,interjección de sorpresa o fastidio ('¡chuta!'),frustracion,"",1,1
+inge,(?i)(?<![\p{L}])inge(?![\p{L}]),glosario universitario,ingeniero/a (docente),"",ingeniero,1,1
+pucha,(?i)(?<![\p{L}])pucha(s)?(?![\p{L}]),bolivianismo,interjección de fastidio ('¡pucha!'),frustracion,"",1,1
+ya pues,(?i)(?<![\p{L}])ya pue?s?(?![\p{L}]),bolivianismo,"'¡ya pues!': insistencia, impaciencia o aceptación","","",1,1
++1,(?<![\d])\+1(?![\d]),adhesión / internet,"me sumo, de acuerdo","","",0,0
+chango / chica,(?i)(?<![\p{L}])chang[oa]s?(?![\p{L}]),bolivianismo,"chico/chica, joven","","",0,0
+k'encha,(?i)(?<![\p{L}])(k|q|qh)'?encha(?![\p{L}]),bolivianismo (aymara),"mala suerte, persona o cosa que la trae",frustracion,"",0,0

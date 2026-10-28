@@ -1,0 +1,17 @@
+﻿categoria,titulo,texto,valor,id
+Datos,Volumen del dataset analizado,"Se analizaron 24,651 registros exportados del 22/06/2023 al 17/10/2026; tras excluir 3,009 avisos del sistema y 1,610 mensajes de publicidad quedaron 20,032 mensajes de 1,824 miembros.","20,032",1
+Sentimientos,Sentimiento predominante,"El sentimiento predominante es curiosidad (38.2% de los mensajes con sentimiento), seguido de confusión (10.2%) y gratitud (9.8%).",38.2%,2
+Sentimientos,Balance de polaridad,"Entre los mensajes con sentimiento, 31.1% tienen polaridad positiva y 36.8% negativa (la confusión se clasifica como negativa); la polaridad negativa se concentra en confusión y frustración.",31% / 37%,3
+Sentimientos,Presencia de risa en mensajes negativos,"El 5.0% de los mensajes con polaridad negativa incluye marcadores de risa (jaja, xd o emojis de risa), lo que indica que parte de las quejas se expresa en tono humorístico.",5.0%,4
+Emojis,Emoji más frecuente,"En el texto, el emoji con sentimiento más frecuente es 🙏 (gracias / por favor; en el chat se usa sobre todo al pedir o agradecer ayuda; 151 usos). Como reacción, el más usado es 👍, con 3,545 usos.",🙏,5
+Lenguaje,Expresión de adhesión 'x2',La expresión 'x2' (equivalente a 'yo también') aparece en 658 mensajes y se usa para sumarse a una consulta o a un pedido.,658,6
+Comunidad,Concentración de la participación,El 10% de miembros más activos produce el 57.6% de los mensajes (índice de Gini 0.69). El miembro más activo (Miembro 0001) escribió 763 mensajes.,Gini 0.69,7
+Comunidad,Tasa de respuesta a preguntas,El 38.0% de las preguntas recibe al menos una respuesta explícita; la mediana del tiempo hasta la primera respuesta es de 7 minutos.,38.0%,8
+Comunidad,Hora con mayor tasa de respuesta,Las preguntas publicadas a las 13 h tienen la mayor tasa de respuesta (42.8%).,13 h,9
+Temas,Tópicos identificados (LDA),"El modelo LDA identificó 5 tópicos: Pagos y trámites, Horarios, aulas y clases, Inscripciones y sistema, Plan de estudios y menciones, Docentes y recomendaciones. El tópico con mayor proporción de frustración y enojo es T3 · Inscripciones y sistema.",5,10
+Temas,Día de mayor actividad,"El 04/08/2025 se registraron 347 mensajes, el máximo del periodo; las palabras distintivas de ese día fueron: llamen, humor, inscribieron, chapi.",347,11
+Entidades,Docente con mejor percepción,"Entre los docentes con 20 o más menciones, Aruquipa presenta el índice de percepción más alto (75.0%; 71 menciones). Se trata de la percepción expresada en el chat, no de una evaluación docente.",Aruquipa,12
+Entidades,Lugar con mayor carga negativa,Decanato / FCPN es el lugar con mayor proporción de menciones negativas: 20.3% de sus 59 menciones.,Decanato / FCPN,13
+Causas,Factores asociados a la incertidumbre,"Las palabras más asociadas a los mensajes de confusión y preocupación son: pensum, operativa, generar, entregar, lineal, codigo.",pensum,14
+Predicción,Pronóstico del próximo pico de actividad,El modelo ARIMA + Fourier pronostica el próximo pico de actividad para la semana del 11/01/2027 (aproximadamente 224 mensajes).,11/01/2027,15
+Validación,Validación del diccionario,"Las palabras y los emojis coinciden en polaridad en el 74.4% de los mensajes (kappa = 0.48); el diccionario de emojis coincide en 85.4% con el Emoji Sentiment Ranking, y un clasificador entrenado sin palabras del diccionario alcanza F1 = 0.60.",κ 0.48,16
